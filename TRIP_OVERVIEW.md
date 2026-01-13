@@ -32,19 +32,19 @@ This document provides a high-level summary of the daily itineraries for the pla
 
 ## DAY 3: Journey to Wengen & Exploring Mürren
 ### September 10th, 2026
-*   **Morning:** Travel from Lucerne to Wengen, check in to hotel.
-*   **Lunch:** In Wengen.
-*   **Afternoon:** Explore Mürren and Gimmelwald via the scenic valley loop.
-*   **Evening:** Return to Wengen for dinner.
+*   **10:05 AM - 1:00 PM:** Travel from Lucerne to Wengen & Check-in
+*   **1:00 PM - 2:00 PM:** Lunch in Wengen
+*   **2:00 PM - 6:30 PM:** Explore Mürren & Gimmelwald via scenic loop
+*   **7:30 PM Onwards:** Dinner in Wengen
 
 ---
 
 ## DAY 4: Exploring Wengen & Lauterbrunnen
 ### September 11th, 2026
-*   **Morning:** Explore Wengen village.
-*   **Lunch:** In Lauterbrunnen.
-*   **Afternoon:** Explore Lauterbrunnen Valley, including Staubbach & Trümmelbach Falls.
-*   **Evening:** Return to Wengen for dinner.
+*   **9:00 AM - 11:00 AM:** Morning exploration of Wengen village
+*   **11:00 AM - 1:30 PM:** Descend to Lauterbrunnen for lunch
+*   **1:30 PM - 4:30 PM:** Explore Staubbach & Trümmelbach Falls
+*   **4:30 PM Onwards:** Return to Wengen for dinner
 
 ---
 
