@@ -1,5 +1,7 @@
 ## DAY 7: Interlaken Views & Journey to Zermatt
 
+### September 14th, 2026
+
 **Trip Overview**
 
 A relaxed sightseeing and travel day. You'll spend the morning enjoying the best panoramic view of Interlaken from its local mountain, Harder Kulm. After a leisurely lunch with a view, you will embark on a stunning, world-class train journey that takes you from the Bernese Oberland, through the heart of the Alps, to the iconic car-free village of Zermatt at the foot of the mighty Matterhorn.

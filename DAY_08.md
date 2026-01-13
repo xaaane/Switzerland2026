@@ -1,5 +1,7 @@
 ## DAY 8: Gornergrat & The Blacknose Sheep
 
+### September 15th, 2026
+
 **Trip Overview**
 
 Today is a quintessential Zermatt experience, combining one of the world's most spectacular viewpoints with a beautiful and rewarding hike. You will take the historic Gornergrat railway up to a breathtaking panorama of the Matterhorn, surrounding glaciers, and 29 towering peaks. Afterwards, you will hike down a scenic trail, stopping at the iconic Riffelsee lake before continuing on the "Meet the Sheep" path to find Zermatt's famous Valais Blacknose sheep.

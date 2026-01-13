@@ -1,5 +1,7 @@
 ## DAY 6: Oeschinensee Panorama Hike
 
+### September 13th, 2026
+
 **Trip Overview**
 
 A travel and hiking day that takes you to what many consider the most beautiful alpine lake in Switzerland. Making an early start, you will move your base from Grindelwald to Interlaken before embarking on a day trip to Oeschinensee. There, you'll ride a thrilling mountain coaster and complete the spectacular Heuberg Panorama Hike, which offers world-class views, before returning to Interlaken for the evening.

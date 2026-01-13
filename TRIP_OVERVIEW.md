@@ -5,6 +5,7 @@ This document provides a high-level summary of the daily itineraries for the pla
 ---
 
 ## DAY 1: Arrival in Switzerland & Exploring Lucerne
+### September 8th, 2026
 *   **10:40 AM - 12:00 PM:** Arrival & Transit Prep at Zurich Airport (ZRH)
 *   **12:18 PM - 1:25 PM:** Scenic Train Journey to Lucerne
 *   **1:30 PM - 2:30 PM:** Hotel Check-in & Settling In
@@ -16,6 +17,7 @@ This document provides a high-level summary of the daily itineraries for the pla
 ---
 
 ## DAY 2: Stoos Ridge Hike Adventure
+### September 9th, 2026
 *   **8:00 AM - 8:30 AM:** Breakfast & Preparation
 *   **8:39 AM - 9:49 AM:** Travel from Lucerne to Stoos
 *   **10:00 AM - 10:30 AM:** To the Klingenstock Trailhead
@@ -29,6 +31,7 @@ This document provides a high-level summary of the daily itineraries for the pla
 ---
 
 ## DAY 3: Journey to Wengen & Triple Village Tour
+### September 10th, 2026
 *   **Morning (Flexible):** Breakfast & Check-out in Lucerne
 *   **10:05 AM - 11:55 AM:** The Luzern-Interlaken Express
 *   **11:55 AM - 12:21 PM:** Transfer to Lauterbrunnen
@@ -40,30 +43,33 @@ This document provides a high-level summary of the daily itineraries for the pla
 
 ---
 
-## DAY 4: Rothorn, Brienz & Giessbach Falls (Timed Itinerary)
+## DAY 4: Brienzer Rothorn & Lakeside Charm
+### September 11th, 2026
 *   **7:00 AM - 8:00 AM:** Dawn Departure from Wengen
 *   **8:00 AM - 8:15 AM:** Luggage Storage at Interlaken Ost
 *   **8:17 AM - 8:34 AM:** Train to Brienz
-*   **8:36 AM - 12:15 PM:** Brienzer Rothorn Adventure
-*   **12:15 PM - 1:40 PM:** Lunch and Exploration in Brienz
-*   **1:40 PM - 5:09 PM:** Giessbach Falls Excursion
-*   **~5:30 PM - 6:00 PM:** Train to Interlaken Ost
-*   **6:00 PM - 7:00 PM:** Final Journey to Grindelwald
-*   **8:00 PM Onwards:** Late Dinner in Grindelwald
+*   **8:36 AM - 1:15 PM:** Brienzer Rothorn Adventure
+*   **1:15 PM - 3:40 PM:** Lunch and Exploration in Brienz
+*   **3:40 PM - 5:00 PM:** Scenic Ferry to Interlaken
+*   **5:30 PM - 6:00 PM:** Final Journey to Grindelwald
+*   **7:30 PM Onwards:** Dinner in Grindelwald
 
 ---
 
 ## DAY 5: Adventure at Grindelwald-First
+### September 12th, 2026
 *   **9:00 AM - 10:00 AM:** Leisurely Breakfast & Walk to Gondola
-*   **10:00 AM - 10:30 AM:** Ascend to Grindelwald-First
-*   **10:30 AM - 1:00 PM:** First Cliff Walk & Hike to Bachalpsee
-*   **1:00 PM - 2:00 PM:** Lunch with a View
-*   **2:00 PM - 5:00 PM:** The Adventure Package Descent
-*   **5:00 PM Onwards:** Relaxation & Dinner in Grindelwald
+*   **10:00 AM - 10:30 AM:** First Ascent to Grindelwald-First
+*   **10:30 AM - 1:00 PM:** The Adventure Package Descent
+*   **1:00 PM - 2:00 PM:** Lunch in Grindelwald
+*   **2:00 PM - 2:30 PM:** Second Ascent to Grindelwald-First
+*   **2:30 PM - 5:30 PM:** First Cliff Walk & Hike to Bachalpsee
+*   **5:30 PM Onwards:** Final Descent & Dinner in Grindelwald
 
 ---
 
 ## DAY 6: Oeschinensee Panorama Hike
+### September 13th, 2026
 *   **7:30 AM - 8:30 AM:** Early Check-out and Travel to Interlaken Ost
 *   **8:30 AM - 9:15 AM:** Hotel Luggage Drop in Interlaken
 *   **9:27 AM - 10:18 AM:** Journey to Kandersteg
@@ -77,6 +83,7 @@ This document provides a high-level summary of the daily itineraries for the pla
 ---
 
 ## DAY 7: Interlaken Views & Journey to Zermatt
+### September 14th, 2026
 *   **9:00 AM - 10:00 AM:** Leisurely Breakfast & Luggage Logistics
 *   **10:00 AM - 1:00 PM:** Harder Kulm - Top of Interlaken
 *   **1:00 PM - 1:45 PM:** Descend and Prepare for Departure
@@ -87,6 +94,7 @@ This document provides a high-level summary of the daily itineraries for the pla
 ---
 
 ## DAY 8: Gornergrat & The Blacknose Sheep
+### September 15th, 2026
 *   **9:00 AM - 10:00 AM:** Leisurely Breakfast & Walk to Station
 *   **10:00 AM - 10:40 AM:** Cogwheel Train to Gornergrat
 *   **10:40 AM - 12:00 PM:** Exploring the Gornergrat Summit

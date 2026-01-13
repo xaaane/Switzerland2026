@@ -1,5 +1,7 @@
 ## DAY 3: Journey to Wengen & Triple Village Tour
 
+### September 10th, 2026
+
 **Trip Overview**
 
 Today you will journey from the Lake Lucerne region deep into the heart of the Bernese Oberland. Your destination is the serene, car-free alpine village of Wengen, perched on a sunny terrace with world-class views. After a scenic trip via the Luzern-Interlaken Express and a series of mountain trains, you will spend the afternoon on a "triple village tour," exploring the magnificent Lauterbrunnen Valley and the cliff-side villages of Mürren and Gimmelwald.
