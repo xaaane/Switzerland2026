@@ -1,56 +1,59 @@
-## DAY 5: Adventure at Grindelwald-First
+## DAY 5: Brienzer Rothorn & Lakeside Charm
 
 ### September 12th, 2026
 
 **Trip Overview**
 
-Today is all about immersing yourself in the mountains directly accessible from Grindelwald. You will spend a full day at Grindelwald-First, also known as the "Top of Adventure," in a unique order. You'll start by taking the gondola up, immediately enjoying the thrill of the full Adventure Package all the way back down to the village. After lunch, you'll re-ascend for an afternoon of breathtaking alpine scenery with the First Cliff Walk and the classic hike to Bachalpsee lake.
+This is a scenic and more relaxed travel day focused on the best of the Lake Brienz region. Starting with a dawn departure from Wengen, you will store your luggage in Interlaken before ascending the Brienzer Rothorn on a historic steam train for an extended visit. You'll then have ample time to explore the charming woodcarving village of Brienz. The day concludes with a beautiful ferry ride across the turquoise lake back to Interlaken before you complete the journey to your new alpine base in Grindelwald.
 
 ---
 
 ### **Schedule**
 
-**9:00 AM - 10:00 AM: Leisurely Breakfast & Walk to Gondola**
+**7:00 AM - 8:00 AM: Dawn Departure from Wengen**
 
-*   **Action:** Enjoy a relaxed breakfast at your hotel in Grindelwald.
-*   **Action:** Take a short walk through Grindelwald village to the **Firstbahn Gondola** valley station.
+*   **Action:** A very early start is essential. Check out of your hotel in Wengen and take the necessary train connections (Wengen -> Lauterbrunnen -> Interlaken Ost) to arrive at **Interlaken Ost by 8:00 AM**.
 
-**10:00 AM - 10:30 AM: First Ascent to Grindelwald-First**
+**8:00 AM - 8:15 AM: Luggage Storage at Interlaken Ost**
 
-*   **Gondola Ride:** Enjoy the 25-minute scenic gondola ride up to **First** (2,168m / 7,113 ft).
+*   **Action:** Go directly to the luggage lockers or the staffed luggage counter to quickly deposit your main bags for the day.
 
-**10:30 AM - 1:00 PM: The Adventure Package Descent**
+**8:17 AM - 8:34 AM: Train to Brienz**
 
-*   **Action:** Upon arrival at First, get straight into the adventure. You will work your way down the mountain from station to station using a series of three exciting activities.
-*   **1. First Flyer or First Glider:** From the **First** station, take an 800-meter-long zipline down to the **Schreckfeld** station.
-*   **2. First Mountain Cart:** At **Schreckfeld**, switch to a Mountain Cart for a fun ride down the track to the **Bort** station.
-*   **3. First Trottibike Scooter:** At **Bort**, swap your cart for a Trottibike and cruise down the final paved path back into Grindelwald village.
+*   **Action:** Catch a train from Interlaken Ost that arrives in Brienz before 8:36 AM. The Brienzer Rothorn station is directly across from the main train station.
 
-**1:00 PM - 2:00 PM: Lunch in Grindelwald**
+**8:36 AM - 1:15 PM: Brienzer Rothorn Adventure**
 
-*   **Action:** Having returned to the village, enjoy a well-deserved lunch at a restaurant of your choice.
+*   **8:36 AM (DEPARTURE):** Depart from Brienz on the **first Brienzer Rothorn Bahn steam train**. The scenic journey up the mountain takes approximately one hour.
+*   **~9:36 AM - 12:15 PM (SUMMIT TIME):** You have a generous **2 hours and 40 minutes** at the Rothorn Kulm summit. This is an excellent amount of time to walk the ridge paths, take in the phenomenal 360-degree views, and have a leisurely lunch at the summit restaurant.
+*   **12:15 PM (DEPARTURE):** Depart from Rothorn Kulm on the **return train**, arriving back in Brienz around 1:15 PM.
 
-**2:00 PM - 2:30 PM: Second Ascent to Grindelwald-First**
+**1:15 PM - 3:40 PM: Lunch and Exploration in Brienz**
 
-*   **Action:** Head back to the Firstbahn Gondola station and take the gondola up to **First** for the second time.
+*   **Action:** You have over **2 hours** to enjoy the village of Brienz.
+*   **Dining:** If you didn't eat on the summit, head to **Bino's Pizzeria** for lunch.
+*   **Explore:** Take an extended walk along the beautiful lakeside promenade and wander up the famous **Brunngasse**, known as one of the most beautiful streets in Europe, admiring the traditional woodcarvings on the chalets.
 
-**2:30 PM - 5:30 PM: First Cliff Walk & Hike to Bachalpsee**
+**3:40 PM - 5:00 PM: Scenic Ferry to Interlaken**
 
-*   **First Cliff Walk by Tissot:** Start your afternoon with the thrilling cliff walk, a metal walkway built onto the sheer side of the mountain with a spectacular viewing platform.
-*   **Hike to Bachalpsee:** Embark on the classic alpine hike to **Bachalpsee (Lake Bachalp)**. The walk takes approximately 50 minutes each way.
-*   **The Reward:** Relax by the beautiful lake, famous for its reflection of the Schreckhorn mountain on calm days.
+*   **Action:** Walk to the Brienz ferry terminal.
+*   **3:40 PM (DEPARTURE):** Board the ferry for a beautiful and relaxing 1 hour and 20-minute cruise across the length of Lake Brienz, arriving directly at **Interlaken Ost**.
 
-**5:30 PM Onwards: Final Descent & Dinner**
+**5:00 PM - 5:30 PM: Retrieve Luggage**
 
-*   **Action:** After hiking back to the First station, take the gondola for your final descent back to Grindelwald.
-*   **Dining:** Enjoy dinner at a restaurant of your choice in Grindelwald.
+*   **Action:** Upon arrival at Interlaken Ost, retrieve your luggage from storage.
+
+**5:30 PM - 6:00 PM: Final Journey to Grindelwald**
+
+*   **Action:** Board the Berner Oberland-Bahn (BOB) train for the final 30-minute scenic ride up to your new base, **Grindelwald**. Upon arrival, find your hotel and check in.
+
+**7:30 PM Onwards: Dinner in Grindelwald**
 
 ---
 
 ### **Practical Information & Tips**
 
-*   **Tickets:** For this plan, you will need a ticket that covers **two ascents** and **one descent** on the gondola, plus the three activities of the **Adventure Package**. Check with the ticket office for the best combination. A simple return ticket plus the Adventure Package should work, as the package activities replace one descent.
-*   **Swiss Travel Pass:** Your Swiss Travel Pass provides a **50% discount** on the gondola rides. The discount does not apply to the adventure activities themselves.
-*   **What to Wear:** Wear sturdy, closed-toe shoes (required for the activities). Bring layers (a windbreaker or light jacket is recommended), sunglasses, and sunscreen.
-*   **Check Operating Status:** Before you go, check the live status of the gondola and activities on the Jungfrau Region website, as high winds or bad weather can sometimes cause closures.
-*   **Pacing:** Be mindful of the time for your second ascent to ensure you have enough time for the Bachalpsee hike before the last gondola down (usually around 5:30 PM - 6:00 PM, but always check).
+*   **Book in Advance:** It is still highly recommended to book your **Brienzer Rothorn Bahn tickets online in advance** to secure your spot on the 8:36 AM train.
+*   **Swiss Travel Pass:** Your pass covers the trains (Wengen-Interlaken-Brienz, Interlaken-Grindelwald) and the ferry from Brienz to Interlaken Ost. It provides a significant discount on the Brienzer Rothorn Bahn.
+*   **Punctuality:** The key departure to be on time for is the 8:36 AM Rothorn train. The rest of the day is more flexible. Check the ferry schedule in advance to confirm the afternoon departure time.
+*   **Flexibility:** With more time in both locations, you can decide whether to have a long lunch on the Rothorn summit or a quicker one in Brienz, allowing for more exploration.

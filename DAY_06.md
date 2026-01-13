@@ -1,66 +1,56 @@
-## DAY 6: Oeschinensee Panorama Hike
+## DAY 6: Adventure at Grindelwald-First
 
 ### September 13th, 2026
 
 **Trip Overview**
 
-A travel and hiking day that takes you to what many consider the most beautiful alpine lake in Switzerland. Making an early start, you will move your base from Grindelwald to Interlaken before embarking on a day trip to Oeschinensee. There, you'll ride a thrilling mountain coaster and complete the spectacular Heuberg Panorama Hike, which offers world-class views, before returning to Interlaken for the evening.
+Today is all about immersing yourself in the mountains directly accessible from Grindelwald. You will spend a full day at Grindelwald-First, also known as the "Top of Adventure," in a unique order. You'll start by taking the gondola up, immediately enjoying the thrill of the full Adventure Package all the way back down to the village. After lunch, you'll re-ascend for an afternoon of breathtaking alpine scenery with the First Cliff Walk and the classic hike to Bachalpsee lake.
 
 ---
 
 ### **Schedule**
 
-**7:30 AM - 8:30 AM: Early Check-out and Travel to Interlaken Ost**
+**9:00 AM - 10:00 AM: Leisurely Breakfast & Walk to Gondola**
 
-*   **Action:** Enjoy an early breakfast in Grindelwald and check out of your hotel.
-*   **Action:** Take an early train from Grindelwald down to **Interlaken Ost** with your luggage.
+*   **Action:** Enjoy a relaxed breakfast at your hotel in Grindelwald.
+*   **Action:** Take a short walk through Grindelwald village to the **Firstbahn Gondola** valley station.
 
-**8:30 AM - 9:15 AM: Hotel Luggage Drop in Interlaken**
+**10:00 AM - 10:30 AM: First Ascent to Grindelwald-First**
 
-*   **Action:** Make your way to your hotel in Interlaken to drop your luggage for the day.
+*   **Gondola Ride:** Enjoy the 25-minute scenic gondola ride up to **First** (2,168m / 7,113 ft).
 
-**9:27 AM - 10:18 AM: Journey to Kandersteg**
+**10:30 AM - 1:00 PM: The Adventure Package Descent**
 
-*   **Action:** From Interlaken Ost, take the train towards Brig, getting off at **Spiez**. At Spiez, change to the connecting train to **Kandersteg**.
+*   **Action:** Upon arrival at First, get straight into the adventure. You will work your way down the mountain from station to station using a series of three exciting activities.
+*   **1. First Flyer or First Glider:** From the **First** station, take an 800-meter-long zipline down to the **Schreckfeld** station.
+*   **2. First Mountain Cart:** At **Schreckfeld**, switch to a Mountain Cart for a fun ride down the track to the **Bort** station.
+*   **3. First Trottibike Scooter:** At **Bort**, swap your cart for a Trottibike and cruise down the final paved path back into Grindelwald village.
 
-**10:30 AM - 11:00 AM: Gondola & Mountain Coaster**
+**1:00 PM - 2:00 PM: Lunch in Grindelwald**
 
-*   **Action:** From Kandersteg station, enjoy the 15-minute walk through the village to the Oeschinensee gondola station.
-*   **Action:** Ride the gondola up the mountain.
-*   **Mountain Coaster:** Upon arrival at the top station, head straight for the **Oeschinen Mountain Coaster (Rodelbahn)**. It's best to do this first, ensuring you have the time and energy to enjoy the thrilling ride before your hike.
+*   **Action:** Having returned to the village, enjoy a well-deserved lunch at a restaurant of your choice.
 
-**11:00 AM - 3:30 PM: The Oeschinensee Panorama Hike (Heuberg Loop)**
+**2:00 PM - 2:30 PM: Second Ascent to Grindelwald-First**
 
-*   **The Hike:** This is the day's main event. From the gondola station area, begin by following signs for **"Heuberg"** (Route No. 8). The trail first climbs above the station before traversing high above the lake. This direction ensures the stunning views are constantly in front of you.
-*   **Terrain:** The path is well-marked but can be narrow, rocky, and exposed in sections. It requires good footing, a head for heights, and sturdy hiking shoes.
-*   **Lunch with a View:** The trail passes two small mountain farms/huts, **Unterbärgli** and **Oberbärgli**. These are perfect spots to stop for a simple lunch, fresh cheese, or drinks. Alternatively, pack a picnic to enjoy at one of the countless scenic viewpoints.
-*   **Descent:** After traversing the high path, the trail descends to the back of the lake. The final section is a pleasant walk along the lakeshore, completing the loop.
-*   **Total Time:** The 4.5-hour window is very comfortable for the hike, which takes approximately 3-3.5 hours of pure walking time, plus a lunch break and photo stops.
+*   **Action:** Head back to the Firstbahn Gondola station and take the gondola up to **First** for the second time.
 
-**3:30 PM - 4:30 PM: Lakeside Relaxation**
+**2:30 PM - 5:30 PM: First Cliff Walk & Hike to Bachalpsee**
 
-*   **Action:** The hike finishes at the main lakeshore area near the restaurants. This hour is for well-deserved relaxation. You can rent a rowboat, dip your feet in the icy turquoise water, or simply enjoy a celebratory drink at the **Berghaus Oeschinensee** terrace.
+*   **First Cliff Walk by Tissot:** Start your afternoon with the thrilling cliff walk, a metal walkway built onto the sheer side of the mountain with a spectacular viewing platform.
+*   **Hike to Bachalpsee:** Embark on the classic alpine hike to **Bachalpsee (Lake Bachalp)**. The walk takes approximately 50 minutes each way.
+*   **The Reward:** Relax by the beautiful lake, famous for its reflection of the Schreckhorn mountain on calm days.
 
-**4:30 PM - 5:00 PM: Return to the Valley**
+**5:30 PM Onwards: Final Descent & Dinner**
 
-*   **Action:** Take the 25-minute (slightly uphill) walk from the lake back to the top gondola station.
-*   **Action:** Ride the gondola back down to Kandersteg.
-
-**5:00 PM - 6:30 PM: Return Journey to Interlaken**
-
-*   **Action:** Walk from the gondola station back through Kandersteg village to the train station.
-*   **Action:** Take the train connections back to Interlaken.
-
-**6:30 PM Onwards: Relax & Dinner in Interlaken**
-
-*   **Action:** Arrive back in Interlaken and head to your hotel to properly check in and relax after an epic day of hiking.
-*   **Dining:** Explore Interlaken for a restaurant of your choice to enjoy your evening meal.
+*   **Action:** After hiking back to the First station, take the gondola for your final descent back to Grindelwald.
+*   **Dining:** Enjoy dinner at a restaurant of your choice in Grindelwald.
 
 ---
 
 ### **Practical Information & Tips**
 
-*   **Footwear is Key:** Sturdy hiking shoes or boots with good grip are **essential** for the Panorama Hike. Do not attempt it in casual sneakers.
-*   **Check Conditions:** Before you travel, check the Oeschinensee website for the status of the gondola and the hiking trail. The high-altitude path can be closed due to snow early or late in the season.
-*   **Swiss Travel Pass:** Your pass covers the trains to Kandersteg. It provides a **50% discount** on the Oeschinensee gondola ticket. The mountain coaster is extra.
-*   **Bring Water & Sunscreen:** Much of the trail is exposed to the sun. Be sure to carry enough water and apply sunscreen.
+*   **Tickets:** For this plan, you will need a ticket that covers **two ascents** and **one descent** on the gondola, plus the three activities of the **Adventure Package**. Check with the ticket office for the best combination. A simple return ticket plus the Adventure Package should work, as the package activities replace one descent.
+*   **Swiss Travel Pass:** Your Swiss Travel Pass provides a **50% discount** on the gondola rides. The discount does not apply to the adventure activities themselves.
+*   **What to Wear:** Wear sturdy, closed-toe shoes (required for the activities). Bring layers (a windbreaker or light jacket is recommended), sunglasses, and sunscreen.
+*   **Check Operating Status:** Before you go, check the live status of the gondola and activities on the Jungfrau Region website, as high winds or bad weather can sometimes cause closures.
+*   **Pacing:** Be mindful of the time for your second ascent to ensure you have enough time for the Bachalpsee hike before the last gondola down (usually around 5:30 PM - 6:00 PM, but always check).

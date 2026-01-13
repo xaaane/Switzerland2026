@@ -1,61 +1,47 @@
-## DAY 4: Brienzer Rothorn & Lakeside Charm
+## DAY 4: Exploring Wengen & Lauterbrunnen
 
 ### September 11th, 2026
 
 **Trip Overview**
 
-This is a scenic and more relaxed travel day focused on the best of the Lake Brienz region. Starting with a dawn departure from Wengen, you will store your luggage in Interlaken before ascending the Brienzer Rothorn on a historic steam train for an extended visit. You'll then have ample time to explore the charming woodcarving village of Brienz. The day concludes with a beautiful ferry ride across the turquoise lake back to Interlaken before you complete the journey to your new alpine base in Grindelwald.
+After a big travel day yesterday, today is about exploring your local surroundings at a relaxed pace. From your base in Wengen, you'll spend the morning getting to know the village before descending into the magnificent Lauterbrunnen Valley to experience its most famous and powerful waterfalls.
 
 ---
 
 ### **Schedule**
 
-**7:00 AM - 8:00 AM: Dawn Departure from Wengen**
+**9:00 AM - 11:00 AM: Exploring Wengen Village**
 
-*   **Action:** A very early start is essential. Check out of your hotel in Wengen and take the necessary train connections (Wengen -> Lauterbrunnen -> Interlaken Ost) to arrive at **Interlaken Ost by 8:00 AM**.
+*   **Action:** Enjoy a leisurely breakfast at your hotel.
+*   **Action:** Spend the morning exploring car-free Wengen. Walk along the main street, browse the shops, and be sure to find the scenic viewpoint by the protestant church for a classic photo over the Lauterbrunnen Valley.
 
-**8:00 AM - 8:15 AM: Luggage Storage at Interlaken Ost**
+**11:00 AM - 12:00 PM: Descent to Lauterbrunnen**
 
-*   **Action:** Go directly to the luggage lockers or the staffed luggage counter to quickly deposit your main bags for the day.
+*   **Action:** Take the cogwheel train from Wengen down into the valley, arriving at Lauterbrunnen.
 
-**8:17 AM - 8:34 AM: Train to Brienz**
+**12:00 PM - 1:30 PM: Lunch in Lauterbrunnen**
 
-*   **Action:** Catch a train from Interlaken Ost that arrives in Brienz before 8:36 AM. The Brienzer Rothorn station is directly across from the main train station.
+*   **Dining:** Enjoy lunch at a restaurant in Lauterbrunnen village.
 
-**8:36 AM - 1:15 PM: Brienzer Rothorn Adventure**
+**1:30 PM - 4:30 PM: Valley & Waterfall Exploration**
 
-*   **8:36 AM (DEPARTURE):** Depart from Brienz on the **first Brienzer Rothorn Bahn steam train**. The scenic journey up the mountain takes approximately one hour.
-*   **~9:36 AM - 12:15 PM (SUMMIT TIME):** You have a generous **2 hours and 40 minutes** at the Rothorn Kulm summit. This is an excellent amount of time to walk the ridge paths, take in the phenomenal 360-degree views, and have a leisurely lunch at the summit restaurant.
-*   **12:15 PM (DEPARTURE):** Depart from Rothorn Kulm on the **return train**, arriving back in Brienz around 1:15 PM.
+*   **Staubbach Falls:** From the village, walk to the iconic **Staubbach Falls**, which plunges nearly 300 meters from the cliff face. You can even walk up a short path to go behind the waterfall.
+*   **Trümmelbach Falls:** From Lauterbrunnen, either take a scenic 30-minute walk or a short bus ride further down the valley to the **Trümmelbach Falls**. This is a series of ten glacial waterfalls hidden inside a mountain, made accessible by a tunnel lift and a network of platforms. It's a powerful and unique experience.
 
-**1:15 PM - 3:40 PM: Lunch and Exploration in Brienz**
+**4:30 PM Onwards: Return to Wengen**
 
-*   **Action:** You have over **2 hours** to enjoy the village of Brienz.
-*   **Dining:** If you didn't eat on the summit, head to **Bino's Pizzeria** for lunch.
-*   **Explore:** Take an extended walk along the beautiful lakeside promenade and wander up the famous **Brunngasse**, known as one of the most beautiful streets in Europe, admiring the traditional woodcarvings on the chalets.
+*   **Action:** Take the bus from Trümmelbach Falls back to Lauterbrunnen station.
+*   **Final Ascent:** At Lauterbrunnen station, take the familiar cogwheel train for the final ascent back up to Wengen.
 
-**3:40 PM - 5:00 PM: Scenic Ferry to Interlaken**
+**7:00 PM Onwards: Dinner in Wengen**
 
-*   **Action:** Walk to the Brienz ferry terminal.
-*   **3:40 PM (DEPARTURE):** Board the ferry for a beautiful and relaxing 1 hour and 20-minute cruise across the length of Lake Brienz, arriving directly at **Interlaken Ost**.
-
-**5:00 PM - 5:30 PM: Retrieve Luggage**
-
-*   **Action:** Upon arrival at Interlaken Ost, retrieve your luggage from storage.
-
-**5:30 PM - 6:00 PM: Final Journey to Grindelwald**
-
-*   **Action:** Board the Berner Oberland-Bahn (BOB) train for the final 30-minute scenic ride up to your new base, **Grindelwald**. Upon arrival, find your hotel and check in.
-
-**7:30 PM Onwards: Dinner in Grindelwald**
-
-*   **Dining:** After a wonderful day, settle in and head out for a well-deserved dinner.
+*   **Dining:** Enjoy dinner at a restaurant of your choice in Wengen.
 
 ---
 
 ### **Practical Information & Tips**
 
-*   **Book in Advance:** It is still highly recommended to book your **Brienzer Rothorn Bahn tickets online in advance** to secure your spot on the 8:36 AM train.
-*   **Swiss Travel Pass:** Your pass covers the trains (Wengen-Interlaken-Brienz, Interlaken-Grindelwald) and the ferry from Brienz to Interlaken Ost. It provides a significant discount on the Brienzer Rothorn Bahn.
-*   **Punctuality:** The key departure to be on time for is the 8:36 AM Rothorn train. The rest of the day is more flexible. Check the ferry schedule in advance to confirm the afternoon departure time.
-*   **Flexibility:** With more time in both locations, you can decide whether to have a long lunch on the Rothorn summit or a quicker one in Brienz, allowing for more exploration.
+*   **Swiss Travel Pass:** Your pass covers the trains between Wengen and Lauterbrunnen, as well as the bus to Trümmelbach Falls. It also provides a discount on the Trümmelbach Falls entrance fee.
+*   **Trümmelbach Falls:** It can be cool and misty inside the falls, so a light rain jacket is recommended. The stone paths can also be slippery, so wear shoes with good grip.
+*   **Flexibility:** This is a very flexible day. You can choose to spend more time in Wengen in the morning or head down to the valley earlier.
+*   **Walking:** The walk from Lauterbrunnen to Trümmelbach is flat, easy, and scenic if you prefer it over the bus.
