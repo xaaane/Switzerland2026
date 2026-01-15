@@ -4,23 +4,16 @@
 
 **Trip Overview**
 
-This is a scenic and more relaxed travel day focused on the best of the Lake Brienz region. Starting with a dawn departure from Wengen, you will store your luggage in Interlaken before ascending the Brienzer Rothorn on a historic steam train for an extended visit. You'll then have ample time to explore the charming woodcarving village of Brienz. The day concludes with a beautiful ferry ride across the turquoise lake back to Interlaken before you complete the journey to your new alpine base in Grindelwald.
+From your new base in Grindelwald, today is all about exploring the best of the Lake Brienz region. You'll take a morning train to Brienz to ascend the Brienzer Rothorn on a historic steam train for incredible panoramic views. Afterward, you'll have time to explore the charming woodcarving village of Brienz before enjoying a scenic ferry ride across the lake to Interlaken and returning to Grindelwald for the evening.
 
 ---
 
 ### **Schedule**
 
-**7:00 AM - 8:00 AM: Dawn Departure from Wengen**
+**7:30 AM - 8:34 AM: Journey to Brienz**
 
-*   **Action:** A very early start is essential. Check out of your hotel in Wengen and take the necessary train connections (Wengen -> Lauterbrunnen -> Interlaken Ost) to arrive at **Interlaken Ost by 8:00 AM**.
-
-**8:00 AM - 8:15 AM: Luggage Storage at Interlaken Ost**
-
-*   **Action:** Go directly to the luggage lockers or the staffed luggage counter to quickly deposit your main bags for the day.
-
-**8:17 AM - 8:34 AM: Train to Brienz**
-
-*   **Action:** Catch a train from Interlaken Ost that arrives in Brienz before 8:36 AM. The Brienzer Rothorn station is directly across from the main train station.
+*   **Action:** An early start is essential. From Grindelwald, take the train to **Interlaken Ost**, and then change for a train to Brienz. Your goal is to arrive in Brienz before 8:36 AM.
+*   **Note:** The Brienzer Rothorn station is directly across from the main train station in Brienz.
 
 **8:36 AM - 1:15 PM: Brienzer Rothorn Adventure**
 
@@ -39,13 +32,9 @@ This is a scenic and more relaxed travel day focused on the best of the Lake Bri
 *   **Action:** Walk to the Brienz ferry terminal.
 *   **3:40 PM (DEPARTURE):** Board the ferry for a beautiful and relaxing 1 hour and 20-minute cruise across the length of Lake Brienz, arriving directly at **Interlaken Ost**.
 
-**5:00 PM - 5:30 PM: Retrieve Luggage**
+**5:00 PM - 5:30 PM: Return to Grindelwald**
 
-*   **Action:** Upon arrival at Interlaken Ost, retrieve your luggage from storage.
-
-**5:30 PM - 6:00 PM: Final Journey to Grindelwald**
-
-*   **Action:** Board the Berner Oberland-Bahn (BOB) train for the final 30-minute scenic ride up to your new base, **Grindelwald**. Upon arrival, find your hotel and check in.
+*   **Action:** At Interlaken Ost, board the Berner Oberland-Bahn (BOB) train for the final 30-minute scenic ride back up to your hotel in **Grindelwald**.
 
 **7:30 PM Onwards: Dinner in Grindelwald**
 
@@ -54,6 +43,6 @@ This is a scenic and more relaxed travel day focused on the best of the Lake Bri
 ### **Practical Information & Tips**
 
 *   **Book in Advance:** It is still highly recommended to book your **Brienzer Rothorn Bahn tickets online in advance** to secure your spot on the 8:36 AM train.
-*   **Swiss Travel Pass:** Your pass covers the trains (Wengen-Interlaken-Brienz, Interlaken-Grindelwald) and the ferry from Brienz to Interlaken Ost. It provides a significant discount on the Brienzer Rothorn Bahn.
+*   **Swiss Travel Pass:** Your pass covers all train travel for the day (Grindelwald-Interlaken-Brienz) and the ferry from Brienz to Interlaken Ost. It provides a significant discount on the Brienzer Rothorn Bahn.
 *   **Punctuality:** The key departure to be on time for is the 8:36 AM Rothorn train. The rest of the day is more flexible. Check the ferry schedule in advance to confirm the afternoon departure time.
-*   **Flexibility:** With more time in both locations, you can decide whether to have a long lunch on the Rothorn summit or a quicker one in Brienz, allowing for more exploration.
+*   **No Luggage:** Since you are based in Grindelwald, you can travel light with just a daypack.
