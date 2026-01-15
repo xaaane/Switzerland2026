@@ -44,19 +44,17 @@ This document provides a high-level summary of the daily itineraries for the pla
 *   **9:00 AM - 11:00 AM:** Morning exploration of Wengen village
 *   **11:00 AM - 1:30 PM:** Descend to Lauterbrunnen for lunch
 *   **1:30 PM - 4:30 PM:** Explore Staubbach & Trümmelbach Falls
-*   **4:30 PM Onwards:** Return to Wengen for dinner
+*   **4:30 PM Onwards:** Travel to Grindelwald to check in
 
 ---
 
 ## DAY 5: Brienzer Rothorn & Lakeside Charm
 ### September 12th, 2026
-*   **7:00 AM - 8:00 AM:** Dawn Departure from Wengen
-*   **8:00 AM - 8:15 AM:** Luggage Storage at Interlaken Ost
-*   **8:17 AM - 8:34 AM:** Train to Brienz
+*   **7:30 AM - 8:34 AM:** Travel from Grindelwald to Brienz
 *   **8:36 AM - 1:15 PM:** Brienzer Rothorn Adventure
 *   **1:15 PM - 3:40 PM:** Lunch and Exploration in Brienz
 *   **3:40 PM - 5:00 PM:** Scenic Ferry to Interlaken
-*   **5:30 PM - 6:00 PM:** Final Journey to Grindelwald
+*   **5:00 PM - 5:30 PM:** Return to Grindelwald
 *   **7:30 PM Onwards:** Dinner in Grindelwald
 
 ---
