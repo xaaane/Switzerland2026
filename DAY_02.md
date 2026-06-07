@@ -2,6 +2,8 @@
 
 ### September 9th, 2026
 
+**Accommodation:** Radisson Blu Hotel, Lucerne
+
 **Trip Overview**
 
 Today is a full-day, active excursion to experience one of Switzerland's most spectacular ridge hikes. You will travel from Lucerne to the car-free alpine village of Stoos, ascend to the mountaintops via a series of funiculars and chairlifts, and undertake the famous Klingenstock to Fronalpstock panoramic trail. After a rewarding lunch with breathtaking views, you will take a scenic trail down the mountain before returning to Lucerne for a well-deserved evening of relaxation.

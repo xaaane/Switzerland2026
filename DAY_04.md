@@ -2,6 +2,8 @@
 
 ### September 11th, 2026
 
+**Accommodation:** Bergwelt Grindelwald | Alpine Design Resort
+
 **Trip Overview**
 
 This day is dedicated to exploring the stunning Lauterbrunnen Valley. After a final morning in Wengen, you'll descend into the valley to witness its iconic waterfalls. At the end of the day, you will travel to your new alpine base in Grindelwald, checking in for the next two nights.

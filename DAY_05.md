@@ -2,6 +2,8 @@
 
 ### September 12th, 2026
 
+**Accommodation:** Bergwelt Grindelwald | Alpine Design Resort
+
 **Trip Overview**
 
 From your new base in Grindelwald, today is all about exploring the best of the Lake Brienz region. You'll take a morning train to Brienz to ascend the Brienzer Rothorn on a historic steam train for incredible panoramic views. Afterward, you'll have time to explore the charming woodcarving village of Brienz before enjoying a scenic ferry ride across the lake to Interlaken and returning to Grindelwald for the evening.

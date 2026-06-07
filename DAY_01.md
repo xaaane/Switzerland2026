@@ -2,6 +2,8 @@
 
 ### September 8th, 2026
 
+**Accommodation:** Radisson Blu Hotel, Lucerne
+
 **Trip Overview**
 
 Today is about transitioning smoothly from your arrival in Switzerland to the picturesque city of Lucerne. The plan is designed for a relaxed pace, allowing you to settle in, enjoy your first taste of Swiss culture, and explore the city's most iconic landmarks without feeling rushed. You'll travel directly from Zurich Airport to Lucerne, have a traditional Swiss lunch, wander through the charming Old Town, and enjoy a casual, customized dinner.

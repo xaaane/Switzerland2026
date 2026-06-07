@@ -2,6 +2,8 @@
 
 ### September 10th, 2026
 
+**Accommodation:** Braunbär Hotel & Spa | Wengen
+
 **Trip Overview**
 
 Today you will journey from the Lake Lucerne region deep into the heart of the Bernese Oberland. Your destination is the serene, car-free alpine village of Wengen. After checking in, you'll spend the afternoon exploring the stunning cliff-side villages of Mürren and Gimmelwald, which offer dramatic views of the surrounding peaks.

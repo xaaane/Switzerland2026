@@ -2,6 +2,8 @@
 
 ### September 13th, 2026
 
+**Accommodation:** Bergwelt Grindelwald | Alpine Design Resort
+
 **Trip Overview**
 
 Today is all about immersing yourself in the mountains directly accessible from Grindelwald. You will spend a full day at Grindelwald-First, also known as the "Top of Adventure," in a unique order. You'll start by taking the gondola up, immediately enjoying the thrill of the full Adventure Package all the way back down to the village. After lunch, you'll re-ascend for an afternoon of breathtaking alpine scenery with the First Cliff Walk and the classic hike to Bachalpsee lake.

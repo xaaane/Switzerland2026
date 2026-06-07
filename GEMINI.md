@@ -10,12 +10,19 @@ The core content is stored in a series of Markdown files, one for each day of th
 
 *   `DAY_01.md`: Arrival in Switzerland (Zurich Airport) and exploration of Lucerne.
 *   `DAY_02.md`: Full-day hiking excursion to the Stoos Ridge.
-*   `DAY_03.md`: Travel from Lucerne to Wengen, with exploration of the Lauterbrunnen Valley, Mürren, and Gimmelwald.
-*   `DAY_04.md`: A packed travel and sightseeing day involving moving from Wengen to Grindelwald, with excursions to the Brienzer Rothorn and Giessbach Falls.
-*   `DAY_05.md`: A full day of activities at Grindelwald-First, including the Cliff Walk, Bachalpsee hike, and adventure activities (Flyer, Mountain Cart, Trottibike).
-*   `DAY_06.md`: Travel from Grindelwald to Interlaken, followed by a day trip to Oeschinensee for the Panorama Hike.
-*   `DAY_07.md`: Morning sightseeing at Harder Kulm in Interlaken, followed by the scenic train journey to Zermatt.
-*   `DAY_08.md`: A full day in Zermatt focused on the Gornergrat railway, Riffelsee lake, and the "Meet the Sheep" hiking trail.
+*   `DAY_03.md`: Travel from Lucerne to Wengen, with exploration of Mürren and Gimmelwald.
+*   `DAY_04.md`: Exploring the Lauterbrunnen Valley waterfalls and traveling to Grindelwald.
+*   `DAY_05.md`: Brienzer Rothorn steam train and exploring the village of Brienz.
+*   `DAY_06.md`: A full day of activities at Grindelwald-First, including the Cliff Walk and Bachalpsee hike.
+*   `DAY_07.md`: Travel to Interlaken and a day trip to the spectacular Oeschinensee.
+*   `DAY_08.md`: Morning sightseeing at Harder Kulm in Interlaken, followed by the scenic train journey to Zermatt.
+*   `DAY_09.md`: A full day in Zermatt focused on the Gornergrat railway, Riffelsee lake, and the "Meet the Sheep" hiking trail.
+*   `DAY_10.md`: Final morning in Zermatt at Matterhorn Glacier Paradise and the journey to Milan, Italy.
+*   `DAY_11.md`: Day trip from Milan to the stunning Lake Como (Varenna and Bellagio).
+*   `DAY_12.md`: Milan's art and architecture: Guided tours of *The Last Supper* and the Duomo.
+*   `DAY_13.md`: Exploring the heart of Milan: The Duomo, Galleria, and Sforza Castle.
+*   `DAY_14.md`: Final morning in Milan and departure.
+
 
 Each file follows a consistent structure:
 1.  **Trip Overview:** A short summary of the day's main goals.
