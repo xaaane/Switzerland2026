@@ -25,6 +25,7 @@ These bookings are highly time-sensitive and should be secured as early as possi
 *   [ ] **Reserve Popular Restaurants (Day 1):**
     *   **Lunch:** Book a table at **Wirtshaus Taube** in Lucerne. (Detail in [DAY_01.md](file:///c:/Planning/Switzerland2026/DAY_01.md))
     *   **Dinner:** Book a table at **Pastarazzi** in Lucerne. (Detail in [DAY_01.md](file:///c:/Planning/Switzerland2026/DAY_01.md))
+*   [ ] **Purchase Travel Insurance:** Secure comprehensive international travel insurance covering medical expenses, trip cancellations, and mountain rescue services (essential for high-altitude alpine hiking).
 
 ---
 
