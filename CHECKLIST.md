@@ -22,8 +22,7 @@ These bookings are highly time-sensitive and should be secured as early as possi
     *   **Zermatt Arrival (Day 8):** Contact the **CERVO Mountain Resort** in advance to check if they offer a complimentary electric taxi/shuttle from Zermatt train station. (Detail in [DAY_08.md](file:///c:/Planning/Switzerland2026/DAY_08.md))
     *   [x] Confirm check-in policies/bookings for all accommodations listed in [TRIP_OVERVIEW.md](file:///c:/Planning/Switzerland2026/TRIP_OVERVIEW.md).
     *   [x] Confirm flight bookings (flight LH1186 arriving in ZRH on Day 1).
-*   [ ] **Arrange Luggage Transfers (Optional - Day 3):**
-    *   If you wish to travel hands-free on travel days, pre-book SBB's luggage transfer service to send bags directly from Lucerne to Wengen. (Detail in [DAY_03.md](file:///c:/Planning/Switzerland2026/DAY_03.md))
+*   [x] **Arrange Luggage Transfers (Optional - Day 3):** *(Decided against due to multi-day transit times; carrying luggage on the train).*
 *   [ ] **Reserve Popular Restaurants (Day 1):**
     *   **Lunch:** Book a table at **Wirtshaus Taube** in Lucerne. (Detail in [DAY_01.md](file:///c:/Planning/Switzerland2026/DAY_01.md))
     *   **Dinner:** Book a table at **Pastarazzi** in Lucerne. (Detail in [DAY_01.md](file:///c:/Planning/Switzerland2026/DAY_01.md))
