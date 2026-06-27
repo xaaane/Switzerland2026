@@ -10,9 +10,9 @@ This checklist gathers all action items, bookings, and logistical arrangements y
 
 These bookings are highly time-sensitive and should be secured as early as possible to prevent sell-outs.
 
-*   [ ] **Secure Guided Tours in Milan (Day 12):**
-    *   **The Last Supper (Cenacolo Vinciano):** Guided viewing at Santa Maria delle Grazie is strictly limited. Tickets go on sale 2–3 months in advance and sell out within minutes. (Detail in [DAY_12.md](file:///c:/Planning/Switzerland2026/DAY_12.md))
-    *   **Duomo & Rooftops Guided Tour:** Skip-the-line guided access to the Cathedral and terraces. (Detail in [DAY_12.md](file:///c:/Planning/Switzerland2026/DAY_12.md))
+*   [x] **Secure Guided Tours in Milan (Day 12):**
+    *   [x] **The Last Supper (Cenacolo Vinciano):** Guided viewing at Santa Maria delle Grazie is strictly limited. Tickets go on sale 2–3 months in advance and sell out within minutes. (Detail in [DAY_12.md](file:///c:/Planning/Switzerland2026/DAY_12.md))
+    *   [x] **Duomo & Rooftops Guided Tour:** Skip-the-line guided access to the Cathedral and terraces. (Detail in [DAY_12.md](file:///c:/Planning/Switzerland2026/DAY_12.md))
 *   [ ] **Book Mandatory International Train Tickets (Day 10):**
     *   **EuroCity (EC) Brig to Milano Centrale:** Seat reservations are mandatory for this international train crossing the Swiss-Italian border. Book well in advance via SBB or Trenitalia. (Detail in [DAY_10.md](file:///c:/Planning/Switzerland2026/DAY_10.md))
     *   **Italian Border-to-Milan Transit:** Since the Swiss Travel Pass only covers travel up to the border (usually Domodossola), buy a separate point-to-point ticket for the Italian portion (Domodossola to Milano Centrale). (Detail in [DAY_10.md](file:///c:/Planning/Switzerland2026/DAY_10.md))
