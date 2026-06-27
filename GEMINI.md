@@ -22,6 +22,7 @@ The core content is stored in a series of Markdown files, one for each day of th
 *   `DAY_12.md`: Milan's art and architecture: Guided tours of *The Last Supper* and the Duomo.
 *   `DAY_13.md`: Exploring the heart of Milan: The Duomo, Galleria, and Sforza Castle.
 *   `DAY_14.md`: Final morning in Milan and departure.
+*   `CHECKLIST.md`: Pre-trip preparation checklist and on-site booking guide.
 
 
 Each file follows a consistent structure:
