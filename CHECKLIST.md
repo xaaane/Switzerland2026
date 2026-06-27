@@ -16,8 +16,8 @@ These bookings are highly time-sensitive and should be secured as early as possi
 *   [ ] **Book Mandatory International Train Tickets (Day 10):**
     *   **EuroCity (EC) Brig to Milano Centrale:** Seat reservations are mandatory for this international train crossing the Swiss-Italian border. Book well in advance via SBB or Trenitalia. (Detail in [DAY_10.md](file:///c:/Planning/Switzerland2026/DAY_10.md))
     *   **Italian Border-to-Milan Transit:** Since the Swiss Travel Pass only covers travel up to the border (usually Domodossola), buy a separate point-to-point ticket for the Italian portion (Domodossola to Milano Centrale). (Detail in [DAY_10.md](file:///c:/Planning/Switzerland2026/DAY_10.md))
-*   [ ] **Reserve Popular Mountain Excursions (Day 5):**
-    *   **Brienzer Rothorn Bahn Steam Train:** Purchase your tickets online in advance to secure spots on the recommended **8:36 AM departure** (first train of the day). (Detail in [DAY_05.md](file:///c:/Planning/Switzerland2026/DAY_05.md))
+*   [x] **Reserve Popular Mountain Excursions (Day 5):**
+    *   [x] **Brienzer Rothorn Bahn Steam Train:** Purchase your tickets online in advance to secure spots on the recommended **8:36 AM departure** (first train of the day). (Detail in [DAY_05.md](file:///c:/Planning/Switzerland2026/DAY_05.md))
 *   [x] **Confirm Hotel Logistics & Flight Bookings:**
     *   **Zermatt Arrival (Day 8):** Contact the **CERVO Mountain Resort** in advance to check if they offer a complimentary electric taxi/shuttle from Zermatt train station. (Detail in [DAY_08.md](file:///c:/Planning/Switzerland2026/DAY_08.md))
     *   [x] Confirm check-in policies/bookings for all accommodations listed in [TRIP_OVERVIEW.md](file:///c:/Planning/Switzerland2026/TRIP_OVERVIEW.md).
