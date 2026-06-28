@@ -1,0 +1,1790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alps & Masterpieces: Switzerland & Milan 2026</title>
+    <meta name="description" content="A premium 14-day travel itinerary spanning Lucerne, the Jungfrau Region, Zermatt, Lake Como, and Milan.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <style>
+        /* CSS RESET & VARIABLES */
+        :root {
+            --bg-base: #090d16;
+            --bg-surface: rgba(17, 24, 39, 0.7);
+            --bg-surface-hover: rgba(31, 41, 55, 0.8);
+            --border-glow: rgba(14, 165, 233, 0.2);
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            
+            /* Curated HSL Color Palette */
+            --accent-primary: hsl(199, 89%, 48%); /* Sky Blue */
+            --accent-primary-glow: hsla(199, 89%, 48%, 0.15);
+            --accent-secondary: hsl(172, 85%, 40%); /* Turquoise Emerald */
+            --accent-highlight: hsl(35, 92%, 50%); /* Gold/Orange */
+            --accent-danger: hsl(343, 89%, 60%); /* Rose/Crimson */
+            
+            --font-sans: 'Outfit', sans-serif;
+            --font-serif: 'Playfair Display', serif;
+            
+            --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* SCROLLBAR */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg-base);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-primary);
+        }
+
+        /* TYPOGRAPHY */
+        h1, h2, h3, .font-serif {
+            font-family: var(--font-serif);
+        }
+
+        /* HERO SECTION WITH GLASSMORPHISM OVERLAY */
+        header {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: radial-gradient(circle at 30% 20%, rgba(14, 165, 233, 0.15) 0%, transparent 40%),
+                        radial-gradient(circle at 70% 80%, rgba(20, 184, 166, 0.12) 0%, transparent 40%),
+                        var(--bg-base);
+        }
+
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.35;
+            filter: scale(1.1) blur(2px);
+            z-index: 0;
+            animation: slowPan 40s infinite alternate ease-in-out;
+        }
+
+        @keyframes slowPan {
+            0% { transform: scale(1.05) translate(0, 0); }
+            100% { transform: scale(1.15) translate(-1%, 2%); }
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(9, 13, 22, 0.3) 0%, var(--bg-base) 90%);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 900px;
+            padding: 2rem;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1.2s forwards cubic-bezier(0.16, 1, 0.3, 1) 0.2s;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-tagline {
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            color: var(--accent-secondary);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(to right, #ffffff, #e0f2fe, #99f6e4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+
+        @media (max-width: 768px) {
+            .hero-title { font-size: 2.2rem; }
+            .hero-tagline { font-size: 0.9rem; letter-spacing: 4px; }
+        }
+
+        .hero-description {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 2.5rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* COUNTDOWN TIMER */
+        .countdown-container {
+            display: inline-flex;
+            gap: 1.5rem;
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 1.2rem 2.5rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .countdown-item {
+            display: flex;
+            flex-direction: column;
+            min-width: 70px;
+        }
+
+        .countdown-value {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #ffffff;
+            font-family: var(--font-sans);
+            background: linear-gradient(135deg, #ffffff, var(--accent-primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .countdown-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-muted);
+            margin-top: 0.2rem;
+        }
+
+        @media (max-width: 600px) {
+            .countdown-container {
+                padding: 1rem 1.5rem;
+                gap: 0.8rem;
+            }
+            .countdown-item {
+                min-width: 50px;
+            }
+            .countdown-value {
+                font-size: 1.6rem;
+            }
+            .countdown-label {
+                font-size: 0.65rem;
+                letter-spacing: 1px;
+            }
+        }
+
+        .cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1rem 2.2rem;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 30px;
+            box-shadow: 0 10px 25px rgba(14, 165, 233, 0.4);
+            transition: var(--transition-smooth);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(14, 165, 233, 0.6);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .cta-btn svg {
+            width: 18px;
+            height: 18px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 2;
+            transition: transform 0.3s ease;
+        }
+
+        .cta-btn:hover svg {
+            transform: translateY(3px);
+        }
+
+        /* SECTION LAYOUTS */
+        .section {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 6rem 2rem;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-tagline {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--accent-secondary);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-title {
+            font-size: 2.6rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .section-divider {
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(to right, var(--accent-primary), var(--accent-secondary));
+            margin: 0 auto;
+            border-radius: 2px;
+        }
+
+        /* SNEAK PREVIEW CAROUSEL / GRID */
+        .preview-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-bottom: 5rem;
+        }
+
+        @media (max-width: 968px) {
+            .preview-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .preview-card {
+            background: var(--bg-surface);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: var(--transition-smooth);
+            backdrop-filter: blur(12px);
+        }
+
+        .preview-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(14, 165, 233, 0.3);
+            box-shadow: 0 20px 40px rgba(14, 165, 233, 0.15);
+        }
+
+        .preview-img-container {
+            position: relative;
+            height: 250px;
+            overflow: hidden;
+        }
+
+        .preview-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .preview-card:hover .preview-img {
+            transform: scale(1.08);
+        }
+
+        .preview-tag {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: rgba(9, 13, 22, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--accent-secondary);
+            padding: 0.4rem 1rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            border-radius: 20px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            backdrop-filter: blur(8px);
+        }
+
+        .preview-body {
+            padding: 1.8rem;
+        }
+
+        .preview-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+            color: #ffffff;
+        }
+
+        .preview-desc {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .preview-highlight {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent-highlight);
+        }
+
+        .preview-highlight svg {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+        }
+
+        /* REGION MAP / QUICK TABS */
+        .region-tabs-container {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+        }
+
+        .region-tab {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            color: var(--text-secondary);
+            padding: 0.8rem 1.8rem;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+        }
+
+        .region-tab:hover {
+            background: rgba(255, 255, 255, 0.06);
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .region-tab.active {
+            background: linear-gradient(135deg, var(--accent-primary-glow), rgba(20, 184, 166, 0.1));
+            border-color: var(--accent-primary);
+            color: #ffffff;
+            box-shadow: 0 0 15px rgba(14, 165, 233, 0.2);
+        }
+
+        /* TIMELINE LAYOUT (DAY BY DAY) */
+        .timeline-container {
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .timeline-line {
+            position: absolute;
+            left: 50%;
+            top: 20px;
+            bottom: 20px;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--accent-primary) 0%, var(--accent-secondary) 50%, var(--accent-highlight) 100%);
+            transform: translateX(-50%);
+            z-index: 0;
+            opacity: 0.5;
+        }
+
+        @media (max-width: 768px) {
+            .timeline-line {
+                left: 30px;
+            }
+        }
+
+        .timeline-day {
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 3.5rem;
+            z-index: 1;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .timeline-day.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .timeline-day:nth-child(even) {
+            justify-content: flex-end;
+        }
+
+        @media (max-width: 768px) {
+            .timeline-day, .timeline-day:nth-child(even) {
+                justify-content: flex-start;
+                padding-left: 70px;
+            }
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            top: 20px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--bg-base);
+            border: 4px solid var(--accent-primary);
+            transform: translateX(-50%);
+            z-index: 2;
+            transition: var(--transition-smooth);
+            box-shadow: 0 0 10px var(--accent-primary);
+        }
+
+        .timeline-day:hover .timeline-dot {
+            border-color: var(--accent-highlight);
+            transform: translateX(-50%) scale(1.3);
+            box-shadow: 0 0 20px var(--accent-highlight);
+        }
+
+        @media (max-width: 768px) {
+            .timeline-dot {
+                left: 30px;
+                transform: none;
+            }
+            .timeline-day:hover .timeline-dot {
+                transform: scale(1.3);
+            }
+        }
+
+        .timeline-card {
+            width: 45%;
+            background: var(--bg-surface);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(16px);
+            transition: var(--transition-smooth);
+            cursor: pointer;
+        }
+
+        .timeline-day:nth-child(even) .timeline-card {
+            animation-delay: 0.1s;
+        }
+
+        .timeline-card:hover {
+            border-color: rgba(255, 255, 255, 0.15);
+            background: var(--bg-surface-hover);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .timeline-card {
+                width: 100%;
+            }
+        }
+
+        .day-num {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--accent-primary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.3rem;
+        }
+
+        .day-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+            color: #ffffff;
+        }
+
+        .day-accom {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.8rem;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            color: var(--text-secondary);
+            margin-bottom: 1.2rem;
+        }
+
+        .day-accom svg {
+            width: 14px;
+            height: 14px;
+            fill: none;
+            stroke: var(--accent-secondary);
+            stroke-width: 2;
+        }
+
+        .day-summary {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        /* CARD TOGGLE DETAILS */
+        .day-details {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
+            opacity: 0;
+            border-top: 0px solid rgba(255, 255, 255, 0.08);
+            padding-top: 0;
+            margin-top: 0;
+        }
+
+        .day-details.active {
+            max-height: 1200px;
+            opacity: 1;
+            border-top-width: 1px;
+            padding-top: 1.2rem;
+            margin-top: 1rem;
+        }
+
+        .timeline-card.expanded {
+            border-color: var(--accent-primary);
+            box-shadow: 0 15px 40px rgba(14, 165, 233, 0.15);
+        }
+
+        .detail-item {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .detail-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 7px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--accent-secondary);
+        }
+
+        .detail-time {
+            font-weight: 600;
+            color: #ffffff;
+            margin-right: 0.5rem;
+        }
+
+        .detail-content {
+            color: var(--text-secondary);
+        }
+
+        .detail-note {
+            display: block;
+            margin-top: 0.3rem;
+            font-size: 0.85rem;
+            color: var(--accent-highlight);
+            font-style: italic;
+        }
+
+        .card-expand-indicator {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            font-size: 0.8rem;
+            color: var(--accent-primary);
+            font-weight: 600;
+            margin-top: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .card-expand-indicator svg {
+            width: 12px;
+            height: 12px;
+            stroke: currentColor;
+            stroke-width: 2.5;
+            fill: none;
+            transition: transform 0.3s ease;
+        }
+
+        .timeline-card.expanded .card-expand-indicator svg {
+            transform: rotate(180deg);
+        }
+
+        /* CHECKLIST SECTION */
+        .checklist-wrapper {
+            background: var(--bg-surface);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 30px;
+            padding: 3rem;
+            backdrop-filter: blur(16px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 600px) {
+            .checklist-wrapper {
+                padding: 1.5rem;
+            }
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.2rem;
+            padding: 1.2rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .checklist-item:last-child {
+            border-bottom: none;
+        }
+
+        .checkbox-custom {
+            flex-shrink: 0;
+            width: 24px;
+            height: 24px;
+            border-radius: 6px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.02);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition-smooth);
+            margin-top: 2px;
+        }
+
+        .checkbox-custom svg {
+            width: 14px;
+            height: 14px;
+            stroke: #ffffff;
+            stroke-width: 3;
+            fill: none;
+            opacity: 0;
+            transform: scale(0.6);
+            transition: var(--transition-smooth);
+        }
+
+        .checklist-item.checked .checkbox-custom {
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            border-color: transparent;
+            box-shadow: 0 0 10px rgba(14, 165, 233, 0.4);
+        }
+
+        .checklist-item.checked .checkbox-custom svg {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .checklist-item-content {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+
+        .checklist-label {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #ffffff;
+            transition: var(--transition-smooth);
+        }
+
+        .checklist-item.checked .checklist-label {
+            color: var(--text-muted);
+            text-decoration: line-through;
+        }
+
+        .checklist-sublabel {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            transition: var(--transition-smooth);
+        }
+
+        .checklist-item.checked .checklist-sublabel {
+            color: var(--text-muted);
+        }
+
+        /* PACKING / INFO TABS */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        @media (max-width: 868px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .info-card {
+            background: var(--bg-surface);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 24px;
+            padding: 2.2rem;
+            backdrop-filter: blur(12px);
+        }
+
+        .info-card-title {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #ffffff;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            padding-bottom: 0.8rem;
+        }
+
+        .info-card-title svg {
+            width: 22px;
+            height: 22px;
+            stroke: var(--accent-secondary);
+            stroke-width: 2;
+            fill: none;
+        }
+
+        .info-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .info-list-item {
+            display: flex;
+            gap: 0.8rem;
+            align-items: flex-start;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .info-list-item svg {
+            flex-shrink: 0;
+            width: 16px;
+            height: 16px;
+            stroke: var(--accent-highlight);
+            stroke-width: 2.5;
+            fill: none;
+            margin-top: 4px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #04060b;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .footer-logo {
+            font-family: var(--font-serif);
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #ffffff, var(--accent-primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+
+        .footer-desc {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            max-width: 500px;
+            margin: 0 auto 2rem auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: var(--transition-smooth);
+        }
+
+        .footer-link:hover {
+            color: var(--accent-primary);
+        }
+
+        .footer-copy {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO HEADER -->
+    <header>
+        <img src="images/oeschinensee.jpg" alt="Epic Alpine Landscape" class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-tagline">September 8 – 21, 2026</div>
+            <h1 class="hero-title">Alps & Masterpieces</h1>
+            <p class="hero-description font-serif">
+                A breathtaking 14-day expedition exploring the towering peaks of Switzerland and the rich cultural soul of Northern Italy.
+            </p>
+            
+            <!-- Countdown Timer -->
+            <div class="countdown-container" id="countdown">
+                <div class="countdown-item">
+                    <div class="countdown-value" id="days">--</div>
+                    <div class="countdown-label">Days</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-value" id="hours">--</div>
+                    <div class="countdown-label">Hours</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-value" id="minutes">--</div>
+                    <div class="countdown-label">Mins</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-value" id="seconds">--</div>
+                    <div class="countdown-label">Secs</div>
+                </div>
+            </div>
+            
+            <div>
+                <a href="#itinerary" class="cta-btn">
+                    Explore the Itinerary
+                    <svg viewBox="0 0 24 24">
+                        <path d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SNEAK PREVIEW -->
+    <section class="section" id="previews">
+        <div class="section-header">
+            <div class="section-tagline">Scenic Sneak Preview</div>
+            <h2 class="section-title">Highlights of the Expedition</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="preview-grid">
+            <!-- Card 1 -->
+            <div class="preview-card">
+                <div class="preview-img-container">
+                    <span class="preview-tag">Day 7</span>
+                    <img src="images/oeschinensee.jpg" alt="Oeschinensee" class="preview-img">
+                </div>
+                <div class="preview-body">
+                    <h3 class="preview-title">Oeschinensee Loop</h3>
+                    <p class="preview-desc">
+                        Hike the high panoramic Heuberg loop trails overlooking the most spectacular turquoise glacial lake in Switzerland, before a thrilling ride on the mountain coaster.
+                    </p>
+                    <div class="preview-highlight">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        Heuberg Ridge, Kandersteg
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="preview-card">
+                <div class="preview-img-container">
+                    <span class="preview-tag">Day 9</span>
+                    <img src="images/matterhorn.jpg" alt="Matterhorn" class="preview-img">
+                </div>
+                <div class="preview-body">
+                    <h3 class="preview-title">Zermatt & Gornergrat</h3>
+                    <p class="preview-desc">
+                        Ride Europe's highest open-air cogwheel railway up to 3,089 meters. Witness the majestic Matterhorn reflecting in Riffelsee and trace the Valais Blacknose sheep trail.
+                    </p>
+                    <div class="preview-highlight">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        Gornergrat Railway, Zermatt
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="preview-card">
+                <div class="preview-img-container">
+                    <span class="preview-tag">Day 11</span>
+                    <img src="images/lake_como.jpg" alt="Lake Como" class="preview-img">
+                </div>
+                <div class="preview-body">
+                    <h3 class="preview-title">Lake Como Charm</h3>
+                    <p class="preview-desc">
+                        Escape the city to the "Pearl of Lake Como." Stroll Varenna’s Walk of Lovers and cruise the deep blue waters on a scenic passenger ferry to stunning Bellagio.
+                    </p>
+                    <div class="preview-highlight">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        Varenna & Bellagio, Italy
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ITINERARY TIMELINE -->
+    <section class="section" id="itinerary">
+        <div class="section-header">
+            <div class="section-tagline">Day-by-Day Journey</div>
+            <h2 class="section-title">The Complete Itinerary</h2>
+            <p style="color: var(--text-secondary); margin-top: 0.5rem; font-size: 0.95rem;">Click any card to expand schedules and booking details</p>
+            <div class="section-divider" style="margin-top: 1.2rem;"></div>
+        </div>
+
+        <!-- Region Quick Filter Tabs -->
+        <div class="region-tabs-container">
+            <button class="region-tab active" onclick="filterRegion('all')">Full Itinerary</button>
+            <button class="region-tab" onclick="filterRegion('lucerne')">Lucerne (Days 1-2)</button>
+            <button class="region-tab" onclick="filterRegion('jungfrau')">Jungfrau Region (Days 3-6)</button>
+            <button class="region-tab" onclick="filterRegion('zermatt')">Zermatt & Interlaken (Days 7-10)</button>
+            <button class="region-tab" onclick="filterRegion('milan')">Milan & Como (Days 11-14)</button>
+        </div>
+        
+        <div class="timeline-container">
+            <div class="timeline-line"></div>
+            
+            <!-- DAY 1 -->
+            <div class="timeline-day" data-region="lucerne">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 1 • September 8</div>
+                    <h3 class="day-title">Arrival & Exploring Lucerne</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M19 7h-8V3H3v18h18V7h-2zm-8 12H5v-2h6v2zm0-4H5v-2h6v2zm0-4H5V9h6v2zm8 8h-6v-2h6v2zm0-4h-6v-2h6v2z"/></svg>
+                        Radisson Blu Hotel, Lucerne
+                    </span>
+                    <p class="day-summary">Transition from Zurich Airport to picturesque Lucerne. Settle in, cross the historic Chapel Bridge, see the Lion Monument, and dine in the Old Town.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">10:40 AM</span>
+                            <span class="detail-content">Flight LH1186 arrives at Zurich Airport. Prep transit at SBB Travel Center.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">12:18 PM</span>
+                            <span class="detail-content">Scenic direct train journey to Lucerne (1h 7m). No reservation needed.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">2:30 PM</span>
+                            <span class="detail-content">Traditional Swiss lunch at <strong>Wirtshaus Taube</strong> (Old Town). <span class="detail-note">Reservation Recommended!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">4:00 PM</span>
+                            <span class="detail-content">Explore Chapel Bridge, Water Tower, Lion Monument, and shopping.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">7:30 PM</span>
+                            <span class="detail-content">Custom pasta dinner at <strong>Pastarazzi</strong>. <span class="detail-note">Reservation Recommended!</span></span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+
+            <!-- DAY 2 -->
+            <div class="timeline-day" data-region="lucerne">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 2 • September 9</div>
+                    <h3 class="day-title">Stoos Ridge Hike Adventure</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M19 7h-8V3H3v18h18V7h-2zm-8 12H5v-2h6v2zm0-4H5v-2h6v2zm0-4H5V9h6v2zm8 8h-6v-2h6v2zm0-4h-6v-2h6v2z"/></svg>
+                        Radisson Blu Hotel, Lucerne
+                    </span>
+                    <p class="day-summary">Ride the world's steepest funicular up to Stoos, complete the spectacular Klingenstock to Fronalpstock ridge hike, and have lunch at the summit.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">8:39 AM</span>
+                            <span class="detail-content">Depart Lucerne by train to Schwyz, then bus to the Stoosbahn funicular.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">10:00 AM</span>
+                            <span class="detail-content">World's steepest funicular up to Stoos village. Purchase the **"Stoos Peak Experience"** ticket at the valley station. <span class="detail-note">STP Discount Applies!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">10:30 AM</span>
+                            <span class="detail-content">Klingenstock Chairlift to trailhead. Start the 4.7 km ridge hike to Fronalpstock.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">1:30 PM</span>
+                            <span class="detail-content">Panoramic lunch at **Gipfelrestaurant Fronalpstock** looking over ten lakes.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">2:30 PM</span>
+                            <span class="detail-content">Hike down the scenic Chänzeli Trail to the middle station, chairlift, and funicular return to Lucerne.</span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+
+            <!-- DAY 3 -->
+            <div class="timeline-day" data-region="jungfrau">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 3 • September 10</div>
+                    <h3 class="day-title">Journey to Wengen & Mürren</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M19 7h-8V3H3v18h18V7h-2zm-8 12H5v-2h6v2zm0-4H5v-2h6v2zm0-4H5V9h6v2zm8 8h-6v-2h6v2zm0-4h-6v-2h6v2z"/></svg>
+                        Braunbär Hotel & Spa, Wengen
+                    </span>
+                    <p class="day-summary">Take the scenic Luzern-Interlaken Express into the Bernese Oberland. Drop bags in Wengen and explore the cliff-side villages of Mürren and Gimmelwald.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">10:05 AM</span>
+                            <span class="detail-content">Board Luzern-Interlaken Express train. <span class="detail-note">Tip: Sit on the right side for the best lake scenery!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">11:55 AM</span>
+                            <span class="detail-content">Arrive Interlaken Ost; transfer to Lauterbrunnen train, then cogwheel train up to Wengen.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">2:00 PM</span>
+                            <span class="detail-content">Mürren excursion: Cogwheel to Lauterbrunnen, cable car to Grütschalp, and regional train to Mürren.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">3:30 PM</span>
+                            <span class="detail-content">Easy 30-min scenic downhill walk to the rustic hamlet of Gimmelwald.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">4:30 PM</span>
+                            <span class="detail-content">Schilthornbahn cable car down to Stechelberg, PostBus through Lauterbrunnen Valley, and train back up to Wengen.</span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+
+            <!-- DAY 4 -->
+            <div class="timeline-day" data-region="jungfrau">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 4 • September 11</div>
+                    <h3 class="day-title">Lauterbrunnen Waterfalls & Grindelwald</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M19 7h-8V3H3v18h18V7h-2zm-8 12H5v-2h6v2zm0-4H5v-2h6v2zm0-4H5V9h6v2zm8 8h-6v-2h6v2zm0-4h-6v-2h6v2z"/></svg>
+                        Bergwelt Grindelwald
+                    </span>
+                    <p class="day-summary">Descend into Lauterbrunnen valley to stand behind Staubbach Falls and enter the inside-mountain glacier waterfalls at Trümmelbach, before shifting base to Grindelwald.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">11:00 AM</span>
+                            <span class="detail-content">Check out of hotel, board train down to Lauterbrunnen. Store bags in station lockers.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">1:30 PM</span>
+                            <span class="detail-content">Walk to **Staubbach Falls** (nearly 300m high) and explore the path going behind the falls.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">2:30 PM</span>
+                            <span class="detail-content">Take bus/walk to **Trümmelbach Falls**, ten glacial falls inside the mountain rock walls. <span class="detail-note">Needs light rain jacket & sturdy shoes!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">4:30 PM</span>
+                            <span class="detail-content">Retrieve bags from lockers, board train to Grindelwald (via Zweilütschinen change).</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">5:30 PM</span>
+                            <span class="detail-content">Check in at Bergwelt Grindelwald resort. Settle in for a 3-night stay.</span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+
+            <!-- DAY 5 -->
+            <div class="timeline-day" data-region="jungfrau">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 5 • September 12</div>
+                    <h3 class="day-title">Brienzer Rothorn Steam Train</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M19 7h-8V3H3v18h18V7h-2zm-8 12H5v-2h6v2zm0-4H5v-2h6v2zm0-4H5V9h6v2zm8 8h-6v-2h6v2zm0-4h-6v-2h6v2z"/></svg>
+                        Bergwelt Grindelwald
+                    </span>
+                    <p class="day-summary">Ascend Brienzer Rothorn on a historic mountain steam train, stroll the famous Brunngasse in Brienz, and take a relaxing ferry cruise across Lake Brienz.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">7:30 AM</span>
+                            <span class="detail-content">Depart Grindelwald. Travel by train to Interlaken Ost, then train to Brienz.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">8:36 AM</span>
+                            <span class="detail-content">Board the first **Brienzer Rothorn Bahn steam train** of the day. <span class="detail-note">Tickets pre-booked!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">9:40 AM</span>
+                            <span class="detail-content">Summit time (2h 40m). Walk the ridges, take photos, and lunch at summit restaurant.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">1:15 PM</span>
+                            <span class="detail-content">Explore the woodcarving village of Brienz. Stroll the historic **Brunngasse chalets**.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">3:40 PM</span>
+                            <span class="detail-content">Board scenic passenger ferry from Brienz to Interlaken Ost (1h 20m). Covered by STP.</span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+
+            <!-- DAY 6 -->
+            <div class="timeline-day" data-region="jungfrau">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 6 • September 13</div>
+                    <h3 class="day-title">Grindelwald-First Adventure Package</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M19 7h-8V3H3v18h18V7h-2zm-8 12H5v-2h6v2zm0-4H5v-2h6v2zm0-4H5V9h6v2zm8 8h-6v-2h6v2zm0-4h-6v-2h6v2z"/></svg>
+                        Bergwelt Grindelwald
+                    </span>
+                    <p class="day-summary">Enjoy adrenaline-pumping descents (Zipline, Mountain Carts, Trottibikes) down Grindelwald-First, walk the First Cliff Walk, and hike to Bachalpsee lake.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">10:00 AM</span>
+                            <span class="detail-content">Gondola ascent to First. Buy the Adventure Package + gondola combination. <span class="detail-note">STP 50% discount on gondola!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">10:30 AM</span>
+                            <span class="detail-content">Descent via activities: Zipline (First Flyer/Glider), Mountain Cart (Schreckfeld to Bort), and Trottibike Scooter back to village.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">2:00 PM</span>
+                            <span class="detail-content">Second gondola ascent. Walk the metallic **First Cliff Walk by Tissot**.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">3:00 PM</span>
+                            <span class="detail-content">Begin the alpine hike to **Bachalpsee** (50-min each way). Enjoy mountain reflections.</span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+
+            <!-- DAY 7 -->
+            <div class="timeline-day" data-region="zermatt">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 7 • September 14</div>
+                    <h3 class="day-title">Oeschinensee Loop & Interlaken</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M19 7h-8V3H3v18h18V7h-2zm-8 12H5v-2h6v2zm0-4H5v-2h6v2zm0-4H5V9h6v2zm8 8h-6v-2h6v2zm0-4h-6v-2h6v2z"/></svg>
+                        Essential by Dorint Interlaken
+                    </span>
+                    <p class="day-summary">Relocate to Interlaken. Day trip to Kandersteg to ride the mountain coaster and complete the breathtaking Heuberg Loop panorama hike above Oeschinensee lake.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">7:30 AM</span>
+                            <span class="detail-content">Train to Interlaken Ost. Drop bags at hotel. Board train to Kandersteg (via Spiez).</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">10:30 AM</span>
+                            <span class="detail-content">Gondola to Oeschinensee. Head straight to the **Mountain Coaster (Rodelbahn)**. <span class="detail-note">STP gives 50% off gondola!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">11:00 AM</span>
+                            <span class="detail-content">Begin **Heuberg Loop Hike** (Route 8). Path traverses high cliffs with spectacular turquoise lake views. <span class="detail-note">Hiking boots required!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">1:30 PM</span>
+                            <span class="detail-content">Stop at Unterbärgli or Oberbärgli mountain huts for cheese/drinks or picnic.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">3:30 PM</span>
+                            <span class="detail-content">Descend to lake. Rent a rowboat or relax at Berghaus Oeschinensee terrace. Walk back to gondola.</span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+
+            <!-- DAY 8 -->
+            <div class="timeline-day" data-region="zermatt">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 8 • September 15</div>
+                    <h3 class="day-title">Harder Kulm & Zermatt Journey</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M19 7h-8V3H3v18h18V7h-2zm-8 12H5v-2h6v2zm0-4H5v-2h6v2zm0-4H5V9h6v2zm8 8h-6v-2h6v2zm0-4h-6v-2h6v2z"/></svg>
+                        CERVO Mountain Resort, Zermatt
+                    </span>
+                    <p class="day-summary">Ascend Harder Kulm funicular for a panoramic lunch overlooking Interlaken, Thun, and Brienz. In the afternoon, board the scenic train climbing into Zermatt.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">10:00 AM</span>
+                            <span class="detail-content">Ride the funicular up to **Harder Kulm**. Walk out on the "Two Lakes Bridge" platform. <span class="detail-note">STP Discount!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">11:30 AM</span>
+                            <span class="detail-content">Early lunch at the castle-style restaurant at the summit. Funicular down.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">2:00 PM</span>
+                            <span class="detail-content">Scenic train journey to Zermatt (Interlaken -> Spiez -> Visp -> Zermatt). <span class="detail-note">Tip: Sit on the left side from Visp for the first view of the Matterhorn!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">4:50 PM</span>
+                            <span class="detail-content">Arrive in car-free Zermatt. Arrange electric shuttle/taxi to CERVO Mountain Resort.</span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+
+            <!-- DAY 9 -->
+            <div class="timeline-day" data-region="zermatt">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 9 • September 16</div>
+                    <h3 class="day-title">Gornergrat & Riffelsee Reflections</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M19 7h-8V3H3v18h18V7h-2zm-8 12H5v-2h6v2zm0-4H5v-2h6v2zm0-4H5V9h6v2zm8 8h-6v-2h6v2zm0-4h-6v-2h6v2z"/></svg>
+                        CERVO Mountain Resort, Zermatt
+                    </span>
+                    <p class="day-summary">Ascend the historic Gornergrat cogwheel train, see the Matterhorn reflect in Riffelsee, and hike the themed "Meet the Sheep" trail to find the Valais Blacknose sheep.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">10:00 AM</span>
+                            <span class="detail-content">Board historic **Gornergrat Bahn** train. <span class="detail-note">STP 50% discount! Sit on the right side. Check webcams first.</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">10:40 AM</span>
+                            <span class="detail-content">Explore the summit (3,089m) overlooking Gorner Glacier, Dufourspitze, and 29 peaks.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">12:00 PM</span>
+                            <span class="detail-content">Downhill hike to **Riffelsee** for iconic Matterhorn reflection photos and picnic.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">1:30 PM</span>
+                            <span class="detail-content">Hike the **"Meet the Sheep"** trail from Rotenboden to Riffelberg. <span class="detail-note">Track the sheep's GPS online!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">3:30 PM</span>
+                            <span class="detail-content">Grab a drink on the terrace at Riffelberg, then ride the train back down to Zermatt.</span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+
+            <!-- DAY 10 -->
+            <div class="timeline-day" data-region="zermatt">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 10 • September 17</div>
+                    <h3 class="day-title">Glacier Paradise & Milan Journey</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M19 7h-8V3H3v18h18V7h-2zm-8 12H5v-2h6v2zm0-4H5v-2h6v2zm0-4H5V9h6v2zm8 8h-6v-2h6v2zm0-4h-6v-2h6v2z"/></svg>
+                        NH Collection Milano CityLife, Milan
+                    </span>
+                    <p class="day-summary">Ascend to Europe's highest cable car station at Matterhorn Glacier Paradise. In the afternoon, cross the border into Italy via the Simplon Tunnel to Milan.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">9:30 AM</span>
+                            <span class="detail-content">Take the Matterhorn Express and "Crystal Ride" cable car up to the summit (3,883m). Explore the Glacier Palace.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">2:00 PM</span>
+                            <span class="detail-content">Depart Zermatt for Milan. Zermatt -> Visp -> Brig, then board the EuroCity train.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">3:40 PM</span>
+                            <span class="detail-content">EuroCity train from Brig to Milano Centrale (via Simplon Tunnel). <span class="detail-note">Seat Reservation & Passports Required!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">6:00 PM</span>
+                            <span class="detail-content">Arrive in Milan. Check in to NH Collection Milano CityLife (converted church building).</span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+
+            <!-- DAY 11 -->
+            <div class="timeline-day" data-region="milan">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 11 • September 18</div>
+                    <h3 class="day-title">Lake Como Day Trip</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M19 7h-8V3H3v18h18V7h-2zm-8 12H5v-2h6v2zm0-4H5v-2h6v2zm0-4H5V9h6v2zm8 8h-6v-2h6v2zm0-4h-6v-2h6v2z"/></svg>
+                        NH Collection Milano CityLife, Milan
+                    </span>
+                    <p class="day-summary">Take a day trip to the spectacular alpine waters of Lake Como. Wander Varenna, cruise by ferry to Bellagio, and enjoy a scenic lakeside lunch.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">9:20 AM</span>
+                            <span class="detail-content">Board regional train from Milano Centrale to Varenna-Esino (1h). <span class="detail-note">Sit on left side!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">10:30 AM</span>
+                            <span class="detail-content">Walk Varenna's "Walk of Lovers," explore narrow alleys, and view the gardens of Villa Monastero.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">12:30 PM</span>
+                            <span class="detail-content">Board ferry across the lake to Bellagio. Buy tickets at the terminal immediately on arrival.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">1:00 PM</span>
+                            <span class="detail-content">Lakeside lunch in Bellagio, explore the steep stone staircases and Punta Spartivento.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">3:30 PM</span>
+                            <span class="detail-content">Hydrofoil to Como, then train from Como San Giovanni back to Milan (or ferry back to Varenna).</span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+
+            <!-- DAY 12 -->
+            <div class="timeline-day" data-region="milan">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 12 • September 19</div>
+                    <h3 class="day-title">Milan's Masterpieces Tours</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M19 7h-8V3H3v18h18V7h-2zm-8 12H5v-2h6v2zm0-4H5v-2h6v2zm0-4H5V9h6v2zm8 8h-6v-2h6v2zm0-4h-6v-2h6v2z"/></svg>
+                        NH Collection Milano CityLife, Milan
+                    </span>
+                    <p class="day-summary">Enjoy skip-the-line guided tours of Milan's ultimate masterpieces: Leonardo da Vinci's Fragile Last Supper and the colossal Duomo & Rooftops.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">10:15 AM</span>
+                            <span class="detail-content">Meet guide for **The Last Supper Tour** in front of Santa Maria delle Grazie Church. <span class="detail-note">Booking Ref: GYG7VKXR3LGN (Towns of Italy). Arrive by 10:15 AM!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">10:30 AM</span>
+                            <span class="detail-content">Enter Refectory to see *The Last Supper* (strictly limited to 15 mins). No photography.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">11:30 AM</span>
+                            <span class="detail-content">Leisurely lunch in Magenta district, then take a walk or metro M1 to Duomo.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">2:50 PM</span>
+                            <span class="detail-content">Meet guide for **Duomo & Rooftops Tour** under the arches of Mondadori Megastore (Piazza Duomo corner Via Mazzini). <span class="detail-note">Booking Ref: GYDKBGA5XQK8 (Wander in Italy). Arrive by 2:50 PM!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">3:00 PM</span>
+                            <span class="detail-content">2-hour guided exploration inside the Cathedral and on the gothic spires of the rooftop. <span class="detail-note">Dress code: Shoulders & knees covered! No weapons or food.</span></span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+
+            <!-- DAY 13 -->
+            <div class="timeline-day" data-region="milan">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 13 • September 20</div>
+                    <h3 class="day-title">Iconic Milan & Sforza Castle</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M19 7h-8V3H3v18h18V7h-2zm-8 12H5v-2h6v2zm0-4H5v-2h6v2zm0-4H5V9h6v2zm8 8h-6v-2h6v2zm0-4h-6v-2h6v2z"/></svg>
+                        NH Collection Milano CityLife, Milan
+                    </span>
+                    <p class="day-summary">Explore Milan at your own pace. Return to Duomo terraces for photos, spin on the bull's mosaic in Galleria, see Sforza Castle, and enjoy aperitivo in Navigli.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">10:00 AM</span>
+                            <span class="detail-content">Self-guided visit to Duomo interior & terraces. <span class="detail-note">Pre-purchase self-guided tickets online!</span></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">12:30 PM</span>
+                            <span class="detail-content">Stroll Galleria Vittorio Emanuele II (spin on the bull's mosaic for luck!). Lunch nearby (try Panzerotto from Luini).</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">2:30 PM</span>
+                            <span class="detail-content">Explore **Sforza Castle (Castello Sforzesco)** courtyards and relax in Parco Sempione.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">7:00 PM</span>
+                            <span class="detail-content">Head to the **Navigli District** for a classic Milanese canal-side aperitivo and dinner.</span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+
+            <!-- DAY 14 -->
+            <div class="timeline-day" data-region="milan">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card" onclick="toggleDetails(this)">
+                    <div class="day-num">Day 14 • September 21</div>
+                    <h3 class="day-title">Final Morning & Departure</h3>
+                    <span class="day-accom">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm1 10h3l-4 4-4-4h3V8h2v4z"/></svg>
+                        Departure
+                    </span>
+                    <p class="day-summary">Enjoy a final Italian breakfast in the CityLife district, complete last-minute shopping, and head to the airport for your flight home.</p>
+                    
+                    <div class="day-details">
+                        <div class="detail-item">
+                            <span class="detail-time">9:00 AM</span>
+                            <span class="detail-content">Enjoy coffee and croissants at the hotel. Settle check and Pack.</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-time">11:00 AM</span>
+                            <span class="detail-content">Hotel check-out. Travel to Malpensa (MXP) or Linate (LIN) Airport for your departing flight.</span>
+                        </div>
+                    </div>
+                    <div class="card-expand-indicator"><span>View Details</span> <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- INTERACTIVE CHECKLIST -->
+    <section class="section" id="checklist" style="background: linear-gradient(180deg, var(--bg-base) 0%, #0c1220 50%, var(--bg-base) 100%); width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; padding-left: 2rem; padding-right: 2rem;">
+        <div class="section-header">
+            <div class="section-tagline">Preparation Guide</div>
+            <h2 class="section-title">Pre-Trip Checklist</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="checklist-wrapper">
+            <!-- Item 1 -->
+            <div class="checklist-item checked" onclick="toggleChecklistItem(this, 'checklist-hotels')">
+                <div class="checkbox-custom">
+                    <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <div class="checklist-item-content">
+                    <span class="checklist-label">Confirm Hotel & Flights</span>
+                    <span class="checklist-sublabel">Confirmed hotel bookings in 6 destinations and flight LH1186 details.</span>
+                </div>
+            </div>
+            
+            <!-- Item 2 -->
+            <div class="checklist-item checked" onclick="toggleChecklistItem(this, 'checklist-tours')">
+                <div class="checkbox-custom">
+                    <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <div class="checklist-item-content">
+                    <span class="checklist-label">Milan Guided Tour Bookings (Day 12)</span>
+                    <span class="checklist-sublabel">Booked The Last Supper (GYG7VKXR3LGN) and Milan Duomo (GYDKBGA5XQK8).</span>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="checklist-item checked" onclick="toggleChecklistItem(this, 'checklist-rothorn')">
+                <div class="checkbox-custom">
+                    <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <div class="checklist-item-content">
+                    <span class="checklist-label">Brienzer Rothorn Bahn Tickets (Day 5)</span>
+                    <span class="checklist-sublabel">Pre-booked the 8:36 AM steam train tickets online to guarantee slots.</span>
+                </div>
+            </div>
+            
+            <!-- Item 4 -->
+            <div class="checklist-item" onclick="toggleChecklistItem(this, 'checklist-stp')">
+                <div class="checkbox-custom">
+                    <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <div class="checklist-item-content">
+                    <span class="checklist-label">Purchase Swiss Travel Pass</span>
+                    <span class="checklist-sublabel">Buy 15-Day consecutive 2nd Class pass online and link it to the SBB App.</span>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="checklist-item" onclick="toggleChecklistItem(this, 'checklist-eurocity')">
+                <div class="checkbox-custom">
+                    <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <div class="checklist-item-content">
+                    <span class="checklist-label">Book EuroCity Brig to Milan Train (Day 10)</span>
+                    <span class="checklist-sublabel">Book on SBB using the "GA 2nd Class" reduction (covers Domodossola -> Milan + seat reservation).</span>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="checklist-item" onclick="toggleChecklistItem(this, 'checklist-insurance')">
+                <div class="checkbox-custom">
+                    <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <div class="checklist-item-content">
+                    <span class="checklist-label">Purchase Travel Insurance</span>
+                    <span class="checklist-sublabel">Ensure coverage for medical emergencies and high-altitude alpine rescue.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRACTICAL TRAVEL INFO -->
+    <section class="section" id="practical-info">
+        <div class="section-header">
+            <div class="section-tagline">Essentials</div>
+            <h2 class="section-title">Practical Travel Information</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="info-grid">
+            <!-- Packing & Gear -->
+            <div class="info-card">
+                <h3 class="info-card-title">
+                    <svg viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-8-2h4v2h-4V4zm8 15H4V8h16v11z"/></svg>
+                    Gear & Packing Tips
+                </h3>
+                <ul class="info-list">
+                    <li class="info-list-item">
+                        <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        <span><strong>Hiking Boots:</strong> Sturdy, broken-in trail boots with tread are required for Day 2 (Stoos) and Day 7 (Oeschinensee).</span>
+                    </li>
+                    <li class="info-list-item">
+                        <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        <span><strong>Mountain Layers:</strong> Fleece, windbreakers, and light rain jackets are essential. Summit elevations exceed 3,800m.</span>
+                    </li>
+                    <li class="info-list-item">
+                        <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        <span><strong>Milan Dress Code:</strong> Knees and shoulders must be covered to enter Milan Duomo and Santa Maria delle Grazie.</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Logistics & Apps -->
+            <div class="info-card">
+                <h3 class="info-card-title">
+                    <svg viewBox="0 0 24 24"><path d="M12 2c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10-4.48-10-10-10zm1 18h-2v-6h2v6zm0-8h-2v-2h2v2z"/></svg>
+                    Transit & Logistics
+                </h3>
+                <ul class="info-list">
+                    <li class="info-list-item">
+                        <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        <span><strong>Swiss Transit (SBB App):</strong> Keep the SBB mobile app installed. It acts as your live timetable and pass wallet.</span>
+                    </li>
+                    <li class="info-list-item">
+                        <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        <span><strong>Currency & Coins:</strong> CHF in Switzerland, EUR in Italy. Have CHF coins for Lauterbrunnen luggage lockers.</span>
+                    </li>
+                    <li class="info-list-item">
+                        <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        <span><strong>Car-Free Zones:</strong> Wengen and Zermatt are car-free. All travel within these villages is walking or electric taxi.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-logo">Alps & Masterpieces 2026</div>
+        <p class="footer-desc">A premium travel diary curated for the ultimate experience of central Switzerland and Northern Italy's culture.</p>
+        <div class="footer-links">
+            <a href="#previews" class="footer-link">Previews</a>
+            <a href="#itinerary" class="footer-link">Itinerary</a>
+            <a href="#checklist" class="footer-link">Checklist</a>
+            <a href="#practical-info" class="footer-link">Travel Info</a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Switzerland & Milan Travel Crew. Designed with adventure in mind.</p>
+    </footer>
+
+    <!-- INTERACTIVE SCRIPT -->
+    <script>
+        // COUNTDOWN TIMER
+        const targetDate = new Date('September 8, 2026 10:40:00').getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const difference = targetDate - now;
+
+            if (difference < 0) {
+                document.getElementById('countdown').innerHTML = "<p style='font-size:1.2rem; color:var(--accent-secondary); font-weight:600;'>The Journey Has Begun!</p>";
+                return;
+            }
+
+            const d = Math.floor(difference / (1000 * 60 * 60 * 24));
+            const h = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const m = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+            const s = Math.floor((difference % (1000 * 60)) / 1000);
+
+            document.getElementById('days').innerText = d;
+            document.getElementById('hours').innerText = h < 10 ? '0' + h : h;
+            document.getElementById('minutes').innerText = m < 10 ? '0' + m : m;
+            document.getElementById('seconds').innerText = s < 10 ? '0' + s : s;
+        }
+
+        // Initialize countdown
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+
+        // TIMELINE ANIMATION ON SCROLL
+        const timelineDays = document.querySelectorAll('.timeline-day');
+
+        const observerOptions = {
+            threshold: 0.15,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        timelineDays.forEach(day => {
+            observer.observe(day);
+        });
+
+        // TOGGLE TIMELINE DETAILS
+        function toggleDetails(card) {
+            // Close other active cards first
+            const expandedCards = document.querySelectorAll('.timeline-card.expanded');
+            expandedCards.forEach(c => {
+                if (c !== card) {
+                    c.classList.remove('expanded');
+                    c.querySelector('.day-details').classList.remove('active');
+                    c.querySelector('.card-expand-indicator span').innerText = 'View Details';
+                }
+            });
+
+            card.classList.toggle('expanded');
+            const details = card.querySelector('.day-details');
+            details.classList.toggle('active');
+            
+            const indicatorText = card.querySelector('.card-expand-indicator span');
+            if (card.classList.contains('expanded')) {
+                indicatorText.innerText = 'Hide Details';
+            } else {
+                indicatorText.innerText = 'View Details';
+            }
+        }
+
+        // REGION QUICK FILTER
+        function filterRegion(region) {
+            // Update Active Tab Class
+            const tabs = document.querySelectorAll('.region-tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Toggle Timeline Line Visibility
+            const line = document.querySelector('.timeline-line');
+            if (region === 'all') {
+                line.style.display = 'block';
+            } else {
+                line.style.display = 'none'; // Hide timeline line when filtered for a cleaner look
+            }
+
+            // Show/Hide Days
+            timelineDays.forEach(day => {
+                const dayRegion = day.getAttribute('data-region');
+                if (region === 'all' || dayRegion === region) {
+                    day.style.display = 'flex';
+                    // Trigger reflow to restart observer animations if hidden previously
+                    setTimeout(() => day.classList.add('visible'), 50);
+                } else {
+                    day.style.display = 'none';
+                    day.classList.remove('visible');
+                }
+            });
+        }
+
+        // INTERACTIVE CHECKLIST STATE PRESERVATION
+        function toggleChecklistItem(item, storageKey) {
+            item.classList.toggle('checked');
+            const isChecked = item.classList.contains('checked');
+            localStorage.setItem(storageKey, isChecked);
+        }
+
+        // Load checklist state from LocalStorage on page load
+        document.addEventListener("DOMContentLoaded", () => {
+            const checklistMap = [
+                { key: 'checklist-hotels', index: 0 },
+                { key: 'checklist-tours', index: 1 },
+                { key: 'checklist-rothorn', index: 2 },
+                { key: 'checklist-stp', index: 3 },
+                { key: 'checklist-eurocity', index: 4 },
+                { key: 'checklist-insurance', index: 5 }
+            ];
+
+            const items = document.querySelectorAll('.checklist-item');
+
+            checklistMap.forEach(map => {
+                const storedState = localStorage.getItem(map.key);
+                if (storedState !== null) {
+                    const item = items[map.index];
+                    if (storedState === 'true') {
+                        item.classList.add('checked');
+                    } else {
+                        item.classList.remove('checked');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

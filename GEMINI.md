@@ -23,6 +23,7 @@ The core content is stored in a series of Markdown files, one for each day of th
 *   `DAY_13.md`: Exploring the heart of Milan: The Duomo, Galleria, and Sforza Castle.
 *   `DAY_14.md`: Final morning in Milan and departure.
 *   `CHECKLIST.md`: Pre-trip preparation checklist and on-site booking guide.
+*   `index.html`: Interactive, responsive single-page trip itinerary website with sneak previews, live countdown, and persistent checklist.
 
 
 Each file follows a consistent structure:
