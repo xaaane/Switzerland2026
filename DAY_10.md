@@ -26,13 +26,14 @@ On your final day in Zermatt, you will ascend to the highest cable car station i
 
 *   **Action:** Enjoy a quick but delicious farewell lunch in Zermatt village. Pick up some snacks for the train journey.
 
-**2:00 PM Onwards: Departure for Milan**
+**2:06 PM - 5:50 PM: Train Journey to Milan**
 
-*   **Action:** Head to the Zermatt train station for your journey to Milan.
+*   **Action:** Head to Zermatt train station. Board the 14:06 train heading down the valley.
 *   **The Journey:**
-    *   **Leg 1 (Zermatt -> Visp/Brig):** Take the Matterhorn Gotthard Bahn down the valley (approx. 1h 15m - 1h 30m).
-    *   **Leg 2 (Brig -> Milano Centrale):** Change to a direct EuroCity (EC) train heading south. This leg takes you through the historic Simplon Tunnel and offers beautiful views as you enter Italy and pass Lake Maggiore (approx. 2h).
-*   **Arrival:** Arrive at the magnificent **Milano Centrale** station in the late afternoon or early evening.
+    *   **Leg 1 (Zermatt -> Brig Bahnhofplatz):** Depart Zermatt at **14:06** and arrive at Brig at **15:32** (Matterhorn Gotthard Bahn, 1st Class upgrade confirmed).
+    *   **Transfer at Brig:** Walk from Brig Bahnhofplatz to the main Brig station platform (9-minute connection).
+    *   **Leg 2 (Brig -> Milano Centrale):** Board the **15:41** EuroCity train. Sit in your reserved 1st Class side-by-side seats (**Wagon 2, Seats 23 & 25**). This train takes you through the Simplon Tunnel and down along the beautiful shores of Lake Maggiore (lake is on your left).
+*   **Arrival:** Arrive at **Milano Centrale** at **17:50** (5:50 PM).
 
 **Evening: Check-in & First Night in Milan**
 
@@ -44,7 +45,7 @@ On your final day in Zermatt, you will ascend to the highest cable car station i
 
 ### **Practical Information & Tips**
 
-*   **Train Booking:** Unlike Swiss domestic trains, the EuroCity train from Brig to Milan **requires a seat reservation**. It is highly recommended to book this in advance.
-*   **Swiss Travel Pass:** Your pass covers the journey as far as the Swiss border (usually Domodossola). You will need a separate ticket for the Italian portion of the journey.
-*   **Passport:** Have your passport ready, as you are crossing an international border, although checks are often minimal within the Schengen Area.
-*   **Milan Transport:** Milan has an excellent metro system. From Milano Centrale, you can reach the CityLife area (Tre Torri or Portello stations) relatively easily.
+*   **Train Booking (Confirmed):** You have booked 1st Class upgrades and seat reservations: Zermatt to Brig (14:06–15:32) and Brig to Milano Centrale (15:41–17:50, Wagon 2, Seats 23 and 25).
+*   **Swiss Travel Pass:** Your pass covered the Swiss portion of the journey. The upgrade ticket covers the Italian portion and seat reservations.
+*   **Passport:** Keep your passports accessible as you cross the international border between Switzerland and Italy (conductors may check them on board).
+*   **Milan Transport:** Milan has an excellent metro system. From Milano Centrale, take the Metro M2 (green line) to Garibaldi, then transfer to M5 (purple line) to Tre Torri or Portello station to reach the CityLife hotel.
