@@ -31,8 +31,8 @@ These bookings are highly time-sensitive and should be secured as early as possi
 
 ### 📱 2. Setup Window: Days Before Departure
 
-*   [ ] **Purchase the Swiss Travel Pass (STP):**
-    *   Purchase your consecutive Swiss Travel Pass online and save/print the digital QR codes. Buying online saves you from waiting in queues at the Zurich Airport travel center on arrival day. (Detail in [DAY_01.md](file:///c:/Planning/Switzerland2026/DAY_01.md))
+*   [x] **Purchase the Swiss Travel Pass (STP):**
+    *   [x] Purchase your consecutive Swiss Travel Pass online and save/print the digital QR codes. Buying online saves you from waiting in queues at the Zurich Airport travel center on arrival day. (Detail in [DAY_01.md](file:///c:/Planning/Switzerland2026/DAY_01.md))
 *   [ ] **Install Essential Apps:**
     *   **SBB Mobile:** Crucial for tracking real-time Swiss train/bus schedules, platform updates, and buying local tickets.
     *   **Trenitalia or Italo:** For Italian regional train bookings (Lake Como transit on Day 11).
